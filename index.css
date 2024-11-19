@@ -9,7 +9,7 @@ html, body{
 }
 
 #background{
-    background-image: url(https://i.ytimg.com/vi/imZGxvST5AE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AGuB4AC0AWKAgwIABABGBcgcigRMA8=&rs=AOn4CLABLOlmwLYVjvPJXBXeeJEmpHOrnw);
+    background-image: url(imgs/index_background.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
