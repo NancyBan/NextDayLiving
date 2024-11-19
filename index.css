@@ -13,10 +13,21 @@ html, body{
 }
 
 #background div{
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    #background div {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#background img{
+    -webkit-mask-image: 
+    linear-gradient(to top, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 30%) top,
+    linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 30%) right,
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 30%) bottom,
+    linear-gradient(to left, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 30%) left;
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
 }
 
 #container{ 
