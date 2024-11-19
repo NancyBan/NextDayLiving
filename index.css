@@ -9,7 +9,8 @@ html, body{
 }
 
 #background{
-    color: aqua;
+    background: #05608c;
+    height: 100%;
 }
 
 #background div{
@@ -28,6 +29,13 @@ html, body{
     linear-gradient(to left, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 30%) left;
   -webkit-mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
+  mask-image: 
+    linear-gradient(to top, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 30%) top,
+    linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 30%) right,
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 30%) bottom,
+    linear-gradient(to left, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 1) 30%) left;
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
 }
 
 #container{ 
