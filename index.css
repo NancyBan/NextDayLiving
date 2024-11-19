@@ -13,3 +13,16 @@ html, body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#container{
+    z-index: 2;
+    position: absolute;
+    background: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 90%;
+    width: 60%;
+    display: inline-flex;
+}
