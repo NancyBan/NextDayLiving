@@ -11,8 +11,11 @@ html, body{
 body{
     background-image: url(imgs/index_background.webp);
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: antiquewhite;
 }
 /*
 #background{
