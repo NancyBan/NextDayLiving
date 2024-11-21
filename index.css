@@ -6,9 +6,13 @@
 
 html, body{
     height: 100%;
+    scrollbar-width: none;
+    background-color: antiquewhite;
 }
 
-#container, #container div, #container img{
+#container, 
+#container div, 
+#container img{
     width: 100%;
     height: 100%;
 }
