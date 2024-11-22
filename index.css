@@ -45,6 +45,7 @@ nav i{
 
 main div{
     position: absolute;
+    display: flex;
 }
 .img1{
     top: 37%;
@@ -80,7 +81,7 @@ main img:hover{
     /*background: aqua;*/
 }
 
-main img:hover + .background__img{
+main img:hover+.background__img{
 display: block;
 }
 
@@ -89,9 +90,11 @@ display: block;
     width: 10rem;
     background: beige;
     border-radius: 50%;
+    /*
     position: relative;
     top: -10rem;
     left: -0.5rem;
+    */
     z-index: -1;
     transition-duration: 0.5s;
     display: none;
