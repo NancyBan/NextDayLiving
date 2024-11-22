@@ -80,7 +80,7 @@ main img:hover{
     background: aqua;
 }
 
-.background__img{
+main div .background__img{
     height: 10rem;
     width: 10rem;
     background: beige;
