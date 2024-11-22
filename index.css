@@ -75,12 +75,12 @@ main img{
     height: 9rem;
 }
 
-main div:hover{
+main img:hover{
     cursor: pointer;
     /*background: aqua;*/
 }
 
-main div:hover .background__img{
+main img:hover .background__img{
 display: block;
 }
 
