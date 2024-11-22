@@ -68,7 +68,7 @@ main div{
 
 .img5{
     top: 10%;
-    left: 10%;
+    left: 9%;
 }
 
 main img{
@@ -91,6 +91,9 @@ main div .background__img{
     z-index: -1;
 }
 
+.img5 div{
+    left: 1rem;
+}
 /*
 
 */
