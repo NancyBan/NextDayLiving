@@ -82,7 +82,7 @@ main img:hover{
 
 
 
-.background__img{
+.background__img:hover{
     height: 10rem;
     width: 10rem;
     background: beige;
@@ -91,6 +91,7 @@ main img:hover{
     top: -10rem;
     left: -0.5rem;
     z-index: -1;
+    transition-duration: 0.5s;
 }
 
 .img5 div{
@@ -98,5 +99,29 @@ main img:hover{
 }
 
 /*
+transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
 
+#background-animated {
+    background: #e5e5e5;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    animation: background-expand 1s linear infinite;
+}
+
+@-webkit-keyframes background-expand {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2);
+    }
+
+    100% {
+        filter: blur(10px);
+        opacity: 0;
+    }
+}
 */
