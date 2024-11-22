@@ -78,11 +78,10 @@ main img{
 
 main img:hover{
     cursor: pointer;
-    /*background: aqua;*/
 }
 
-main img:hover+.background__img{
-display: block;
+main img:hover + .background__img{
+    opacity: 1;
 }
 
 .background__img{
@@ -91,14 +90,9 @@ display: block;
     background: beige;
     border-radius: 50%;
     left: -0.5rem;
-    /*
-    position: relative;
-    top: -10rem;
-    
-    */
     z-index: -1;
-    transition-duration: 0.5s;
-    display: none;
+    transition: all 0.4s ease;
+    opacity: 0;
 }
 
 .img5 div{
