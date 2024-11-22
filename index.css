@@ -75,21 +75,14 @@ main img{
     height: 9rem;
 }
 
-main img:hover{
+main div:hover{
     cursor: pointer;
     /*background: aqua;*/
-    height: 10rem;
-    width: 10rem;
-    background: beige;
-    border-radius: 50%;
-    position: relative;
-    top: -10rem;
-    left: -0.5rem;
-    z-index: -1;
-    transition-duration: 0.5s;
 }
 
-
+main div:hover .background__img{
+display: block;
+}
 
 .background__img{
     height: 10rem;
@@ -101,6 +94,7 @@ main img:hover{
     left: -0.5rem;
     z-index: -1;
     transition-duration: 0.5s;
+    display: none;
 }
 
 .img5 div{
