@@ -28,8 +28,6 @@ nav{
 nav i{
     margin-right: 1rem;
     font-size: 3rem;
-}
-nav i{
     cursor: pointer;
 }
  
@@ -45,6 +43,16 @@ nav i{
     z-index: -1;
 }
 
+main:first-child{
+    position: absolute;
+    top: 37%;
+    right: 44%;
+    display: none;
+}
+
+main img{
+    height: 7rem;
+}
 /*
 op2
 body{
