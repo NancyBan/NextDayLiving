@@ -77,7 +77,7 @@ main img{
 
 main img:hover{
     cursor: pointer;
-    background-color: aqua;
+    background: aqua;
 }
 /*
 op2
