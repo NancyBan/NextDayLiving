@@ -79,6 +79,18 @@ main img:hover{
     cursor: pointer;
     background: aqua;
 }
+
+.background__img{
+    height: 10rem;
+    width: 10rem;
+    background: beige;
+    border-radius: 50%;
+    position: relative;
+    top: -10rem;
+    left: -0.5rem;
+    z-index: -1;
+}
+
 /*
 op2
 body{
