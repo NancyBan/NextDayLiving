@@ -77,11 +77,11 @@ main img{
     user-select: none;
 }
 
-main img:hover{
+main a:hover{
     cursor: pointer;
 }
 
-main img:hover + .background__img{
+main a:hover + .background__img{
     opacity: 1;
 }
 
