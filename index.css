@@ -68,7 +68,7 @@ main div{
 
 .img5{
     top: 10%;
-    left: 9%;
+    left: 10%;
 }
 
 main img{
@@ -80,7 +80,9 @@ main img:hover{
     background: aqua;
 }
 
-main div .background__img{
+
+
+.background__img{
     height: 10rem;
     width: 10rem;
     background: beige;
@@ -94,6 +96,7 @@ main div .background__img{
 .img5 div{
     left: 1rem;
 }
+
 /*
 
 */
