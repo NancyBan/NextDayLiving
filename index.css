@@ -43,11 +43,10 @@ nav i{
     z-index: -1;
 }
 
-main:first-child div{
+main div:first-child{
     position: absolute;
     top: 37%;
     right: 44%;
-    display: none;
 }
 
 main img{
