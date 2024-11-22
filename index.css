@@ -46,27 +46,27 @@ nav i{
 main div{
     position: absolute;
 }
-main div:first-child{
+.img1{
     top: 37%;
     right: 47%;
 }
 
-main div:nth-child(2){
+.img2{
     top: 69%;
     left: 10%;
 }
 
-main div:nth-child(3){
+.img3{
     top: 10%;
     right: 10%;
 }
 
-main div:nth-child(4){
+.img4{
     top: 69%;
     right: 10%;
 }
 
-main div:nth-child(5){
+.img5{
     top: 10%;
     left: 10%;
 }
@@ -80,7 +80,7 @@ main img:hover{
     background: aqua;
 }
 
-.background__img{
+.background__img:{
     height: 10rem;
     width: 10rem;
     background: beige;
@@ -127,6 +127,8 @@ body{
     transform: translate(-50%, -50%);
     height: 90%;
     width: 60%;
+    s co ds que dice going 
+    que lasive lost on yo
 }
 
 */
