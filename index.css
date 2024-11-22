@@ -32,15 +32,14 @@ nav i{
 nav i{
     cursor: pointer;
 }
-
+ 
 #background, 
-#background div, 
 #background img{
     width: 100%;
     height: 100%;
 }
 
-#background div{
+#background{
     position: absolute;
     background-color: antiquewhite;
     z-index: -1;
