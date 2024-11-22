@@ -80,7 +80,7 @@ main img:hover{
     /*background: aqua;*/
 }
 
-main img:hover .background__img{
+main img:hover + .background__img{
 display: block;
 }
 
