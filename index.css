@@ -66,6 +66,11 @@ main div:nth-child(4){
     left: 10%;
 }
 
+main div:nth-child(5){
+    top: 10%;
+    left: 10%;
+}
+
 main img{
     height: 9rem;
 }
