@@ -77,12 +77,21 @@ main img{
 
 main img:hover{
     cursor: pointer;
-    background: aqua;
+    /*background: aqua;*/
+    height: 10rem;
+    width: 10rem;
+    background: beige;
+    border-radius: 50%;
+    position: relative;
+    top: -10rem;
+    left: -0.5rem;
+    z-index: -1;
+    transition-duration: 0.5s;
 }
 
 
 
-.background__img:hover{
+.background__img{
     height: 10rem;
     width: 10rem;
     background: beige;
