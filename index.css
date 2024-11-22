@@ -30,7 +30,7 @@ nav i{
     font-size: 3rem;
     cursor: pointer;
 }
- 
+
 #background, 
 #background img{
     width: 100%;
@@ -80,7 +80,7 @@ main img:hover{
     background: aqua;
 }
 
-.background__img:{
+.background__img{
     height: 10rem;
     width: 10rem;
     background: beige;
@@ -127,8 +127,7 @@ body{
     transform: translate(-50%, -50%);
     height: 90%;
     width: 60%;
-    s co ds que dice going 
-    que lasive lost on yo
+    
 }
 
 */
