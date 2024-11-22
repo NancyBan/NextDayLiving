@@ -43,15 +43,9 @@ nav i{
     z-index: -1;
 }
 
-main img{
+main div{
     position: absolute;
-    height: 9rem;
 }
-
-main img:hover{
-    cursor: pointer;
-}
-
 main div:first-child{
     top: 37%;
     right: 47%;
@@ -65,6 +59,14 @@ main div:nth-child(2){
 main div:nth-child(3){
     top: 10%;
     right: 10%;
+}
+
+main img{
+    height: 9rem;
+}
+
+main img:hover{
+    cursor: pointer;
 }
 /*
 op2
