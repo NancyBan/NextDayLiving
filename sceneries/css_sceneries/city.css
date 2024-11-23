@@ -7,18 +7,9 @@ main div{
     left: 9%;
 }
 
-.img1 img{
-    height: 17rem;
-}
-
 .img2{
     top: 56%;
     left: 45%;
-}
-
-.img2 img{
-    height: 13rem;
-    cursor: pointer;
 }
 
 .img3{
@@ -26,14 +17,36 @@ main div{
     right: 8%;
 }
 
+.img4{
+    top: 78%;
+    right: 6%;
+}
+
 main img{
     height: 13rem;
     user-select: none;
 }
 
+.img1 img{
+    height: 17rem;
+}
+
+
+.img2 img{
+    height: 13rem;
+    cursor: pointer;
+}
+
 .img2 img:hover{
     animation: shake 0.5s linear infinite;
 }
+
+.img4 span{
+    font-size: 9rem;
+    transform: rotateX(45deg);
+    cursor: default;
+}
+
 
 @-webkit-keyframes shake{
     0%{
