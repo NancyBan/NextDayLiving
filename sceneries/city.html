@@ -15,12 +15,12 @@
     
 </head>
 <body>
-    <div id="header"></div>
-<script>
-  fetch('templates/template.header.html')
-    .then(response => response.text())
-    .then(data => document.getElementById('header').innerHTML = data);
-</script>
-
+    <div id="header">
+    <script>
+    fetch('templates/template.header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('header').innerHTML = data);
+    </script>
+    </div>
 </body>
 </html>
