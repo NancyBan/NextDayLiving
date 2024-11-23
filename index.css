@@ -45,7 +45,7 @@ header .submenu{
     display: none;
 }
 
-header .submenu .active{
+header .submenu.active{
     display: block;
 }
 
