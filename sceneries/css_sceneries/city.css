@@ -28,4 +28,5 @@ main div{
 main img{
     height: 13rem;
     user-select: none;
+    cursor: pointer;
 }
