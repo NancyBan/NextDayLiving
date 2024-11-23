@@ -41,11 +41,8 @@ nav i{
     height: 14rem;
     width: 14rem;
     padding: 15px;
-    /*
     position: absolute;
-    top: 5rem;
-    right: 3rem;
-    */
+    right: 0%;
     border-radius: 6%;
     background-color: #3233325c;
     backdrop-filter: blur(5px);
