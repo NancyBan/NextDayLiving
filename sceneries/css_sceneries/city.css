@@ -2,9 +2,18 @@ main div{
     position: absolute;
 }
 
-.img1{
-    top: 10%;
-    left: 9%;
+.img2{
+    top: 27rem;
+    left: 45rem;
+}
+
+.img2 img{
+    height: 13rem;
+}
+
+.img3{
+    top: 25.5rem;
+    right: 7rem;
 }
 
 main img{
