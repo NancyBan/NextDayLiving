@@ -2,6 +2,15 @@ main div{
     position: absolute;
 }
 
+.img1{
+    top: 46%;
+    left: 9%;
+}
+
+.img1 img{
+    height: 17rem;
+}
+
 .img2{
     top: 27rem;
     left: 45rem;
