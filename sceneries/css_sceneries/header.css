@@ -45,3 +45,7 @@ nav i{
     position: absolute;
     z-index: -1;
 }
+
+main div{
+    position: absolute;
+}
