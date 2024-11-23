@@ -4,7 +4,7 @@
         <title>City</title>
         <link rel="stylesheet" href="css_sceneries/city.css">
         <script>
-            fetch('templates/template.head.html')
+            fetch('../templates/template.head.html')
               .then(response => response.text())
               .then(data => {
                   const head = document.querySelector('head');
@@ -16,20 +16,17 @@
 <body>
     <div id="header">
     <script>
-    fetch('templates/template.header.html')
+    fetch('../templates/template.header.html')
         .then(response => response.text())
         .then(data => document.getElementById('header').innerHTML = data);
     </script>
     </div>
 
     <div id="container">
-        <div id="background"><img src="imgs_sceneries/city_backgrpund.png"></div>
+        <div id="background"><img src=""></div>
         
         <main>
-            <div class="img1"><img src="imgs_sceneries/city_girl.png"></div>
-            <div class="img2"><img src="imgs_sceneries/city_trashBag.png"></div>
-            <div class="img3"><img src="imgs_sceneries/city_trashCan.png"></div>
-            <div class="img4"><a href="sub_sceneries/city_subscenerie.html"><span class="material-symbols-outlined">arrow_right_alt</span></a></div>
+           
         </main>
         <script src="index.js"></script> <!--no hay :D-->
     </div>

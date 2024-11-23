@@ -44,9 +44,8 @@ main img{
 .img4 span{
     font-size: 9rem;
     transform: rotateX(45deg);
-    cursor: default;
+    cursor: pointer;
 }
-
 
 @-webkit-keyframes shake{
     0%{
