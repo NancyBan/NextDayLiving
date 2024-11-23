@@ -18,6 +18,7 @@ main div{
 
 .img2 img{
     height: 13rem;
+    cursor: pointer;
 }
 
 .img3{
@@ -28,10 +29,9 @@ main div{
 main img{
     height: 13rem;
     user-select: none;
-    cursor: pointer;
 }
 
-.img2:hover img{
+.img2 img:hover{
     animation: shake 0.5s linear infinite;
 }
 
