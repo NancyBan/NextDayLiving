@@ -32,23 +32,30 @@ nav i{
     cursor: pointer;
 }
 
-header .submenu{
-    border-radius: 6%;
+.submenu{
+    color: white;
+    height: 14rem;
+    width: 14rem;
+    padding: 15px;
     position: absolute;
     top: 5rem;
     right: 3rem;
-    height: 14rem;
-    width: 14rem;
+    border-radius: 6%;
     background-color: #3233325c;
     backdrop-filter: blur(5px);
-    transition: all 1s ease;
-    color: white;
-    padding: 15px;
     opacity: 0;
+    transition: all 1s ease;
 }
 
-header .submenu.active{
+.submenu.active{
     opacity: 1;
+}
+
+.submenu div{
+    height: 100%;
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 3%
 }
 
 #background, 
