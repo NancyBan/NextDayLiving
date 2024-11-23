@@ -49,3 +49,8 @@ nav i{
 main div{
     position: absolute;
 }
+
+main img{
+    height: 13rem;
+    user-select: none;
+}

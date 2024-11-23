@@ -18,15 +18,9 @@
     right: 6%;
 }
 
-main img{
-    height: 13rem;
-    user-select: none;
-}
-
 .img1 img{
     height: 17rem;
 }
-
 
 .img2 img{
     height: 13rem;
