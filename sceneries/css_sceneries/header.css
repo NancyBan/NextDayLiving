@@ -20,7 +20,7 @@ header{
 
 nav{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-betwee;
     align-items: center;
     height: 100%;
 }
