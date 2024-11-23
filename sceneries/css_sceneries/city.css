@@ -32,23 +32,21 @@ main img{
 }
 
 .img2:hover img{
-    animation: shake 1s linear infinite;
+    animation: shake 0.5s linear infinite;
 }
 
 @-webkit-keyframes shake{
     0%{
         transform: rotate(0deg);
     }
-
-    50%{
-        transform: rotate(20deg);
+    20%{
+        transform: rotate(5deg);
+    }
+    60%{
+        transform: rotate(-5deg);
     }
 
     100%{
         transform: rotate(0deg);
     }
 }
-/*
-translateY(-5px) rotate(-20deg)}
-  45%, 50% { transform: scale(1.2) translateY(-5px) rotate(20deg)}
-*/
