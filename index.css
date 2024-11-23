@@ -120,31 +120,3 @@ main a:hover + .background__img{
 .img5 .background__img{
     background: #fbfbfbc4;
 }
-
-/*
-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-
-#background-animated {
-    background: #e5e5e5;
-    border-radius: 50%;
-    height: 3rem;
-    width: 3rem;
-    animation: background-expand 1s linear infinite;
-}
-
-@-webkit-keyframes background-expand {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(2);
-    }
-
-    100% {
-        filter: blur(10px);
-        opacity: 0;
-    }
-}
-*/
