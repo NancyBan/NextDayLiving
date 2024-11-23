@@ -19,4 +19,5 @@ nav i:first-child{
 .img2 img{
     height: 5rem;
     transform: rotate(45deg);
+    cursor: pointer;
 }
