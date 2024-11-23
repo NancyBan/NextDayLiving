@@ -11,6 +11,12 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <?php require("templates/template.header.php"); ?>
+    <div id="header"></div>
+<script>
+  fetch('templates/template.header.html')
+    .then(response => response.text())
+    .then(data => document.getElementById('header').innerHTML = data);
+</script>
+
 </body>
 </html>
