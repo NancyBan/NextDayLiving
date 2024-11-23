@@ -1,8 +1,22 @@
+nav i:first-child{
+    color: #ffe8e8;
+}
+
 .img1{
     top: 30%;
     left: 42%;
 }
 
+.img2{
+    top: 76%;
+    right: 40%;
+}
+
 .img1 img{
     height: 27rem;
+}
+
+.img2 img{
+    height: 5rem;
+    transform: rotate(45deg);
 }
