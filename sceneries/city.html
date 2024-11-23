@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-
+    <head>
+        <title>City</title>
+        <script>
+            fetch('templates/template.head.html')
+              .then(response => response.text())
+              .then(data => {
+                  const head = document.querySelector('head');
+                  head.insertAdjacentHTML('beforeend', data); // Inserta contenido al final de <head>
+              });
+        </script>
+    </head>
     
-
-    <script>
-        fetch('templates/template.head.html')
-          .then(response => response.text())
-          .then(data => document.querySelector('head').innerHTML = data);
-      </script>
-
-<title>City</title>
-
-    
-</head>
 <body>
     <div id="header">
     <script>
