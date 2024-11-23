@@ -30,3 +30,25 @@ main img{
     user-select: none;
     cursor: pointer;
 }
+
+.img2:hover img{
+    animation: shake 1s linear infinite;
+}
+
+@-webkit-keyframes shake{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(20deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+/*
+translateY(-5px) rotate(-20deg)}
+  45%, 50% { transform: scale(1.2) translateY(-5px) rotate(20deg)}
+*/
