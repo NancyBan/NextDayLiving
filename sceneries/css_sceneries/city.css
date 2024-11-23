@@ -1,2 +1,13 @@
+main div{
+    position: absolute;
+}
 
+.img1{
+    top: 10%;
+    left: 9%;
+}
 
+main img{
+    height: 9rem;
+    user-select: none;
+}
