@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <script>
-        fetch('templates/template.head.html')
+        fetch('/templates/template.head.html')
             .then(response => response.text())
             .then(data => {
                 const head = document.querySelector('head');
