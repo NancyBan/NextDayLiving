@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>Artic</title>
-        <script>
-            fetch('templates/template.head.html')
-              .then(response => response.text())
-              .then(data => {
-                  const head = document.querySelector('head');
-                  head.insertAdjacentHTML('beforeend', data); // Inserta contenido al final de <head>
-              });
-        </script>
-    </head>
+<head>
+    <title>Artic</title>
+    <script>
+        fetch('templates/template.head.html')
+            .then(response => response.text())
+            .then(data => {
+                const head = document.querySelector('head');
+                head.insertAdjacentHTML('beforeend', data); // Inserta contenido al final de <head>
+            });
+    </script>
+</head>
     
 <body>
     <div id="header">
@@ -22,14 +22,14 @@
     </div>
 
     <div id="container">
-        <div id="background"><img src="imgs_sceneries/artic_background"></div>
+        <div id="background"><img src="imgs_sceneries/artic_background.jpg"></div>
         
         <main>
             <div class="img1"><img src="imgs_sceneries/artic_bear.png"></div>
             <div class="img1"><img src="imgs_sceneries/artic_penguin.png"></div>
             <div class="img1"><img src="imgs_sceneries/artic_seal.png"></div>
         </main>
-        <script src="index.js"></script> <!--no hay :D-->
+        <script src="index.js"></script>
     </div>
     
 </body>
