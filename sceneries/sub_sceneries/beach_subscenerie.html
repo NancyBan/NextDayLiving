@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>City</title>
-        <link rel="stylesheet" href="css_sceneries/city.css">
+        <title>Beach</title><!--Cambie city por beach, igual copiando como le hizo nancy en los subs de la ciudad-->
+        <link rel="stylesheet" href="css_sceneries/beach.css"> <!--cambie aqui lo que decia beach por city como los escenarios de nancy-->
         <script>
             fetch('../templates/template.head.html')
                 .then(response => response.text())
@@ -32,7 +32,7 @@
                     document.getElementById('header').innerHTML = data;
                     const navLink = document.querySelector('#header nav a');
                     if (navLink) {
-                        navLink.setAttribute('href', '../city_subscenerie.html'); // Cambia el atributo 'href'
+                        navLink.setAttribute('href', '../beach_subscenerie.html'); // Cambia el atributo 'href', lo cambie a beach, copie como tenias lo de la sub de ciudad.
                     }
                 });
         </script>        
@@ -42,9 +42,7 @@
         <div id="background"><img src="imgs_sub_sceneries/beach_waterBackground.webp"></div>
         
         <main>
-            <div class="img1"><img src="imgs_sceneries/"></div>
-            <div class="img2"><img src="imgs_sceneries/"></div>
-            <div class="img3"><img src="imgs_sceneries/"></div>
+            <div class="img1"><img src="imgs_sub_sceneries/beach_guySwimming.png"></div>
         </main>
         <script src="index.js"></script> <!--no hay :D-->
     </div>
