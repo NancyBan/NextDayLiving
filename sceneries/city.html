@@ -8,6 +8,11 @@
                 const head = document.querySelector('head');
                 head.insertAdjacentHTML('afterbegin', data);
 
+                const faviconLink = document.querySelector('link[rel="shortcut icon"]');
+                if (faviconLink) {
+                    faviconLink.setAttribute('href', '../imgs_index/shortcut_icon.png');
+                }
+
                 const stylesheetLink = document.querySelector('link[rel="stylesheet"]');
                 if (stylesheetLink) {
                     stylesheetLink.setAttribute('href', '../css_general/header.css');
@@ -27,7 +32,7 @@
               .then(data => {
                 document.getElementById('header').innerHTML = data;
        
-                const instaIcon = document.querySelector('.submenu img');
+                const instaIcon = document.querySelectorAll('.submenu img');
                 if (instaIcon) {
                     instaIcon.setAttribute('src', '../imgs_index/instagramIcon.png');
                 }
