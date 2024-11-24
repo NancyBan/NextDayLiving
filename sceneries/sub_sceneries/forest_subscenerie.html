@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Artic</title>
+        <script>
+            fetch('templates/template.head.html')
+              .then(response => response.text())
+              .then(data => {
+                  const head = document.querySelector('head');
+                  head.insertAdjacentHTML('beforeend', data); // Inserta contenido al final de <head>
+              });
+        </script>
+    </head>
+    
+<body>
+    <div id="header">
+    <script>
+    fetch('templates/template.header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('header').innerHTML = data);
+    </script>
+    </div>
+
+    <div id="container">
+        <div id="background"><img src="imgs_sub_sceneries/"></div>
+        
+        <main>
+            <div class="img1"><img src="imgs_sub_sceneries/"></div>
+            <div class="img1"><img src="imgs_sub_sceneries/"></div>
+        </main>
+        <script src="index.js"></script> <!--no hay :D-->
+    </div>
+    
+</body>
+</html>
