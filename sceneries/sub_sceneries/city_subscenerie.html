@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>City</title>
-    <link rel="stylesheet" href="css_sceneries/city.css">
     <script>
-        fetch('../templates/template.head.html')
+        fetch('../../templates/template.head.html')
             .then(response => response.text())
             .then(data => {
                 const head = document.querySelector('head');
-                head.insertAdjacentHTML('beforeend', data);
-    
-                const stylesheetLink = document.querySelector('link[rel="stylesheet"]');
-                if (stylesheetLink) {
-                    stylesheetLink.setAttribute('href', '../css_sceneries/header.css');
-                }
-    
+                head.insertAdjacentHTML('afterbegin', data);
+
                 const faviconLink = document.querySelector('link[rel="shortcut icon"]');
                 if (faviconLink) {
                     faviconLink.setAttribute('href', '../../imgs_index/shortcut_icon.png');
                 }
+
+                const stylesheetLink = document.querySelector('link[rel="stylesheet"]');
+                if (stylesheetLink) {
+                    stylesheetLink.setAttribute('href', '../../css_general/header.css');
+                }
             });
     </script>
+
+    <title>City</title>
+    <link rel="stylesheet" href="css_sceneries/city.css">
 </head>
     
 <body>
     <div id="header">
         <script>
-            fetch('../templates/template.header.html')
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById('header').innerHTML = data;
-                    const navLink = document.querySelector('#header nav a');
-                    if (navLink) {
-                        navLink.setAttribute('href', '../city.html'); // Cambia el atributo 'href'
-                    }
+            fetch('../../templates/template.header.html')
+              .then(response => response.text())
+              .then(data => {
+                document.getElementById('header').innerHTML = data;
+       
+                const instaIcons = document.querySelectorAll('.submenu img');
+                instaIcons.forEach(instaIcon => {
+                    instaIcon.setAttribute('src', '../../imgs_index/instagramIcon.png');
                 });
-        </script>   
+
+                const menu = document.querySelector('.bx-menu');
+                const subMenu = document.querySelector('.submenu');
+        
+                if (menu && subMenu) {
+                    menu.addEventListener('click', function () {
+                    subMenu.classList.toggle("active");
+                  });
+                }
+            });
+        </script>
     </div>
 
     <div id="container">
