@@ -48,7 +48,7 @@ nav i{
     background-color: #3233325c;
     backdrop-filter: blur(5px);
     opacity: 0;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
     z-index: 1000;
 }
 
