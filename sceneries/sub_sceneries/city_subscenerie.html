@@ -28,10 +28,14 @@
     <div id="header">
         <script>
             fetch('../../templates/template.header.html')
-              .then(response => response.text())
-              .then(data => {
+                .then(response => response.text())
+                .then(data => {
                 document.getElementById('header').innerHTML = data;
-       
+                const navLink = document.querySelector('#header nav a');
+                if (navLink) {
+                    navLink.setAttribute('href', '../city.html'); // Cambia el atributo 'href'
+                }
+        
                 const instaIcons = document.querySelectorAll('.submenu img');
                 instaIcons.forEach(instaIcon => {
                     instaIcon.setAttribute('src', '../../imgs_index/instagramIcon.png');
@@ -43,7 +47,7 @@
                 if (menu && subMenu) {
                     menu.addEventListener('click', function () {
                     subMenu.classList.toggle("active");
-                  });
+                    });
                 }
             });
         </script>
