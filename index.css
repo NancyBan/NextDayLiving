@@ -80,6 +80,12 @@ color: white;
     border-radius: 3%
 }
 
+.submenu{
+    font-family: "Playwrite NZ", serif;
+    font-family: "Playwrite IN", serif;
+    font-family: "Caveat", serif;
+}
+
 #background, 
 #background img{
     width: 100%;
