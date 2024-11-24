@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title>City</title>
-        <link rel="stylesheet" href="css_sceneries/city.css">
-        <script>
-            fetch('../templates/template.head.html')
-                .then(response => response.text())
-                .then(data => {
-                    const head = document.querySelector('head');
-                    head.insertAdjacentHTML('beforeend', data);
-        
-                    const stylesheetLink = document.querySelector('link[rel="stylesheet"]');
-                    if (stylesheetLink) {
-                        stylesheetLink.setAttribute('href', '../css_sceneries/header.css');
-                    }
-        
-                    const faviconLink = document.querySelector('link[rel="shortcut icon"]');
-                    if (faviconLink) {
-                        faviconLink.setAttribute('href', '../../imgs_index/shortcut_icon.png');
-                    }
-                });
-        </script>
-    </head>
+<head>
+    <title>City</title>
+    <link rel="stylesheet" href="css_sceneries/city.css">
+    <script>
+        fetch('../templates/template.head.html')
+            .then(response => response.text())
+            .then(data => {
+                const head = document.querySelector('head');
+                head.insertAdjacentHTML('beforeend', data);
+    
+                const stylesheetLink = document.querySelector('link[rel="stylesheet"]');
+                if (stylesheetLink) {
+                    stylesheetLink.setAttribute('href', '../css_sceneries/header.css');
+                }
+    
+                const faviconLink = document.querySelector('link[rel="shortcut icon"]');
+                if (faviconLink) {
+                    faviconLink.setAttribute('href', '../../imgs_index/shortcut_icon.png');
+                }
+            });
+    </script>
+</head>
     
 <body>
     <div id="header">
