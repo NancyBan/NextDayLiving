@@ -1,0 +1,1 @@
+const trashBag = document.getElementById('trashBag');

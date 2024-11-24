@@ -28,22 +28,22 @@
     <div id="header">
         <script>
             fetch('../templates/template.header.html')
-              .then(response => response.text())
-              .then(data => {
-                document.getElementById('header').innerHTML = data;
-       
-                const instaIcons = document.querySelectorAll('.submenu img');
-                instaIcons.forEach(instaIcon => {
-                    instaIcon.setAttribute('src', '../imgs_index/instagramIcon.png');
-                });
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header').innerHTML = data;
 
-                const menu = document.querySelector('.bx-menu');
-                const subMenu = document.querySelector('.submenu');
-        
-                if (menu && subMenu) {
-                    menu.addEventListener('click', function () {
-                    subMenu.classList.toggle("active");
-                  });
+                    const instaIcons = document.querySelectorAll('.submenu img');
+                    instaIcons.forEach(instaIcon => {
+                        instaIcon.setAttribute('src', '../imgs_index/instagramIcon.png');
+                    });
+
+                    const menu = document.querySelector('.bx-menu');
+                    const subMenu = document.querySelector('.submenu');
+            
+                    if (menu && subMenu) {
+                        menu.addEventListener('click', function () {
+                        subMenu.classList.toggle("active");
+                    });
                 }
             });
         </script>
@@ -54,10 +54,11 @@
         
         <main>
             <div class="img1"><img src="imgs_sceneries/city_girl.png"></div>
-            <div class="img2"><img src="imgs_sceneries/city_trashBag.png"></div>
+            <div id="trashBag" class="img2"><img src="imgs_sceneries/city_trashBag.png"></div>
             <div class="img3"><img src="imgs_sceneries/city_trashCan.png"></div>
             <div class="img4"><a href="sub_sceneries/city_subscenerie.html"><span class="material-symbols-outlined">arrow_right_alt</span></a></div>
         </main>
     </div>
+    <script src="scripts_sceneries/city.js"></script>
 </body>
 </html>

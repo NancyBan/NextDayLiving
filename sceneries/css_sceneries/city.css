@@ -1,20 +1,24 @@
+.img{
+    bottom: 18%;
+}
+
 .img1{
-    top: 46%;
+    bottom: 18%;
     left: 9%;
 }
 
 .img2{
-    top: 56%;
+    bottom: 18%;
     left: 45%;
 }
 
 .img3{
-    top: 54%;
+    bottom: 18%;
     right: 8%;
 }
 
 .img4{
-    top: 78%;
+    bottom: 2%;
     right: 6%;
 }
 
