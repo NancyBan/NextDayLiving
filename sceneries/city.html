@@ -32,10 +32,11 @@
               .then(data => {
                 document.getElementById('header').innerHTML = data;
        
-                const instaIcon = document.querySelectorAll('.submenu img');
-                if (instaIcon) {
+                const instaIcons = document.querySelectorAll('.submenu img');
+                instaIcons.forEach(instaIcon => {
                     instaIcon.setAttribute('src', '../imgs_index/instagramIcon.png');
-                }
+                });
+
 
                 const menu = document.querySelector('.bx-menu');
                 const subMenu = document.querySelector('.submenu');
