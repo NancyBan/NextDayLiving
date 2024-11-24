@@ -2,13 +2,13 @@
 <html lang="es">
 <head>
     <script>
-        fetch('/templates/template.head.html')
+        fetch('templates/template.head.html')
             .then(response => response.text())
             .then(data => {
                 const head = document.querySelector('head');
                 head.insertAdjacentHTML('afterbegin', data);
 
-                const stylesheetLinkGeneral = document.querySelector('link[rel="stylesheet"]');
+                const stylesheetLink = document.querySelector('link[rel="stylesheet"]');
                 if (stylesheetLink) {
                     stylesheetLink.setAttribute('href', '../css_general/header.css');
                 }
@@ -22,7 +22,7 @@
 <body>
     <div id="header">
         <script>
-            fetch('/templates/template.header.html')
+            fetch('templates/template.header.html')
               .then(response => response.text())
               .then(data => {
                 document.getElementById('header').innerHTML = data;
@@ -48,7 +48,6 @@
             <div class="img3"><img src="imgs_sceneries/city_trashCan.png"></div>
             <div class="img4"><a href="sub_sceneries/city_subscenerie.html"><span class="material-symbols-outlined">arrow_right_alt</span></a></div>
         </main>
-        <script src="index.js"></script> <!--no hay :D-->
     </div>
 </body>
 </html>
