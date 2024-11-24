@@ -27,6 +27,11 @@
               .then(data => {
                 document.getElementById('header').innerHTML = data;
        
+                const instaIcon = document.querySelector('.submenu img');
+                if (instaIcon) {
+                    instaIcon.setAttribute('src', '../imgs_index/instagramIcon.png');
+                }
+
                 const menu = document.querySelector('.bx-menu');
                 const subMenu = document.querySelector('.submenu');
         
@@ -36,7 +41,7 @@
                   });
                 }
             });
-            </script>
+        </script>
     </div>
 
     <div id="container">
