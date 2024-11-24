@@ -37,6 +37,7 @@ nav i{
 }
 
 .submenu{
+    font-family: "Caveat", serif;
     color: white;
     height: 14rem;
     width: 14rem;
@@ -78,10 +79,6 @@ color: white;
     padding: 10px;
     border: 1px white solid;
     border-radius: 3%
-}
-
-.submenu{
-    font-family: "Caveat", serif;
 }
 
 #background, 
