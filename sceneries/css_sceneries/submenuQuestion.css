@@ -1,0 +1,46 @@
+
+.submenu{
+    position: absolute;
+    top: 23%;
+    left: 44%;
+    height: 11rem;
+    width: 15rem;
+}
+
+.submenu.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.submenu > div{
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    display: grid;
+    grid-auto-rows: 50%;
+}
+
+.submenu div div{
+    display: block;
+    position: static;
+    padding: 0;
+}
+
+.question{
+    height: 100%;
+}
+
+.submenu div div:last-child{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.submenu div div:last-child p {
+    width: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.submenu div div:last-child hr {
+    height: 60%;
+}

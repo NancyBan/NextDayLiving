@@ -6,52 +6,6 @@
     left: 9%;
 }
 
-.decisionTrashBag{
-    position: absolute;
-    top: 23%;
-    left: 44%;
-    height: 11rem;
-    width: 15rem;
-}
-
-.decisionTrashBag.active{
-    visibility: visible;
-    opacity: 1;
-}
-
-.decisionTrashBag > div{
-    height: calc(100% - 30px);
-    width: calc(100% - 30px);
-    display: grid;
-    grid-auto-rows: 50%;
-}
-
-.decisionTrashBag div div{
-    display: block;
-    position: static;
-    padding: 0;
-}
-
-.question{
-    height: 100%;
-}
-
-.decisionTrashBag div div:last-child{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
-.decisionTrashBag div div:last-child p {
-    width: 100%;
-    margin: auto;
-    cursor: pointer;
-}
-
-.decisionTrashBag div div:last-child hr {
-    height: 60%;
-}
-
 .img2{
     bottom: 16%;
     left: 45%;
