@@ -22,31 +22,31 @@
 
         <title>Beach</title>
         <link rel="stylesheet" href="css_sceneries/beach.css">
-
+        <link rel="stylesheet" href="css_sceneries/submenuQuestion.css">
     </head>
     
 <body>
     <div id="header">
         <script>
             fetch('../templates/template.header.html')
-              .then(response => response.text())
-              .then(data => {
-                document.getElementById('header').innerHTML = data;
-       
-                const instaIcons = document.querySelectorAll('.submenu img');
-                instaIcons.forEach(instaIcon => {
-                    instaIcon.setAttribute('src', '../imgs_index/instagramIcon.png');
-                });
-
-                const menu = document.querySelector('.bx-menu');
-                const subMenu = document.querySelector('.submenu');
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header').innerHTML = data;
         
-                if (menu && subMenu) {
-                    menu.addEventListener('click', function () {
-                    subMenu.classList.toggle("active");
-                  });
-                }
-            });
+                    const instaIcons = document.querySelectorAll('.submenu img');
+                    instaIcons.forEach(instaIcon => {
+                        instaIcon.setAttribute('src', '../imgs_index/instagramIcon.png');
+                    });
+
+                    const menu = document.querySelector('.bx-menu');
+                    const subMenu = document.querySelector('.submenu');
+            
+                    if (menu && subMenu) {
+                        menu.addEventListener('click', function () {
+                        subMenu.classList.toggle("active");
+                        });
+                    }
+                });
         </script>
     </div>
     
@@ -55,9 +55,22 @@
 
             <main>
                 <div class="img1"><img src="imgs_sceneries/beach_guy.png"></div>       <!--Imagen Uno-->
+                <div class="submenu decisionTrashBag">
+                    <div>
+                        <div>
+                            <p class="question">¿Me tiras al bote?</p>
+                            <hr>
+                        </div>
+                        <div>
+                            <p id="optionYes">Sí</p> 
+                            <hr>
+                            <p id="optionNo">No</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="img2"><img src="imgs_sceneries/beach_trash.png"></div>     <!--Imagen Dos-->
             </main>
-            <script src="index.js"></script> <!--no hay :D-->
+            <script src="scripts_sceneries/submenuQuestion.js"></script> <!--no hay :D-->
         </div>
 </body>
 </html>

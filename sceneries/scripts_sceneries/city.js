@@ -1,10 +1,3 @@
-const trashBag = document.getElementById('trashBag');
-const boxQuestion = document.querySelector('.decisionTrashBag');
-
-trashBag.addEventListener('click', function(){
-    boxQuestion.classList.toggle("active");
-});
-
 const yes = document.getElementById('throwTrash'); //Variable para en caso de que el usuario pulse si
 
 yes.addEventListener('click', function(){
@@ -18,6 +11,3 @@ no.addEventListener('click', function(){
     console.log("No le picaste we");
 
 });
-
-
-/*console.log("le picaste :D");*/
