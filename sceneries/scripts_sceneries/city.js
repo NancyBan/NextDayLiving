@@ -1,4 +1,3 @@
-const trashBag = document.getElementById('trashBag');
 const giftTrash = document.getElementById('giftTrash');
 
 const yes = document.getElementById('throwTrash'); //Variable para en caso de que el usuario pulse si
