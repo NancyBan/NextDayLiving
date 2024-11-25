@@ -18,29 +18,26 @@ yes.addEventListener('click', function(){
 });*/
 
 yes.addEventListener('click', function(){
-    // Primero ocultamos la pregunta
-    boxQuestion.classList.remove("active");
-    
-    // Iniciamos la animación de la bolsa
+    // Forzamos un reflow para que la animación se reinicie
+    trashBag.style.animation = 'none';
+    trashBag.offsetHeight; // Esto fuerza un reflow
     trashBag.style.animation = "throw 5s linear";
     
-    // Esperamos a que la bolsa llegue cerca del bote antes de mostrar el gif
+    boxQuestion.classList.remove("active");
+    giftTrash.innerHTML = '<img src="imgs_sceneries/basurita.gif">';
+    giftTrash.setAttribute('class', 'gift');    
+    trashBag.style.display = "none";
+
+    const imgTrash = document.querySelector('#giftTrash img');
+    
     setTimeout(() => {
-        giftTrash.innerHTML = '<img src="imgs_sceneries/basurita.gif">';
-        trashBag.style.display = "none";
-        giftTrash.setAttribute('class', 'gift');
-        
-        const imgTrash = document.querySelector('#giftTrash img');
-        
-        setTimeout(() => {
-            if(imgTrash){ 
-                imgTrash.remove();
-            }
-            giftTrash.setAttribute('class', '');
-            // Reseteamos la animación de la bolsa para el próximo click
-            trashBag.style.animation = "none";
-        }, 4000);
-    }, 3000);
+        if(imgTrash){ 
+            imgTrash.remove();
+        }
+        giftTrash.setAttribute('class', '');
+        trashBag.style.animation = "none";
+        trashBag.style.display = "block";
+    }, 4000);
 });
 
 
