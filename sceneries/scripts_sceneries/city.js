@@ -1,4 +1,4 @@
-const giftTrash = document.getElementById('giftTrash');
+const containerGiftTrash = document.getElementById('container__gift__trash');
 
 const yes = document.getElementById('throwTrash'); //Variable para en caso de que el usuario pulse si
 /*
@@ -35,13 +35,13 @@ yes.addEventListener('click', function () {
 
     if (clickCount === 1) {
         // Acción para el primer clic
-        trashBag.style.animation = 'none';
-        trashBag.offsetHeight; // Forzar un reflujo para reiniciar la animación
-        giftTrash.style.animation = "throw";
+        containerGiftTrash.style.animation = 'none';
+        containerGiftTrash.offsetHeight; // Forzar un reflujo para reiniciar la animación
+        containerGiftTrash.style.animation = "throw";
 
         boxQuestion.classList.remove("active");
-        giftTrash.innerHTML = '<img src="imgs_sceneries/basurita.gif">';
-        giftTrash.setAttribute('class', 'gift');
+        containerGiftTrash.innerHTML = '<img src="imgs_sceneries/basurita.gif">';
+        containerGiftTrash.setAttribute('class', 'gift');
         trashBag.style.display = "none";
 
         const imgTrash = document.querySelector('#giftTrash img');
@@ -50,7 +50,7 @@ yes.addEventListener('click', function () {
             if (imgTrash) {
                 imgTrash.remove();
             }
-            giftTrash.setAttribute('class', '');
+            containerGiftTrash.setAttribute('class', '');
             trashBag.style.display = "block";
         }, 4000);
 

@@ -11,15 +11,11 @@
     left: 45%;
 }
 
-.img2{
-    
-}
-
-
-#giftTrash{
+#container__gift__trash{
     bottom: 20%;
     right: 35%;
 }
+
 .gift{
     animation: throw 4.7s linear;
 }
