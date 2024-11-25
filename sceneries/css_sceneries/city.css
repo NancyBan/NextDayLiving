@@ -23,6 +23,10 @@
     animation: throw 4.66s linear;
 }
 
+.gift img{
+    height: 23rem;
+}
+
 @-webkit-keyframes throw{
     0%{
         right: 25%;
