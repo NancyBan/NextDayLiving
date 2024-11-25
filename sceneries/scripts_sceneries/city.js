@@ -7,14 +7,14 @@ trashBag.addEventListener('click', function(){
 
 const yes = document.getElementById('throwTrash'); //Variable para en caso de que el usuario pulse si
 
-question.addEventListener('click', function(){
+yes.addEventListener('click', function(){
     console.log("Si le picaste we");
     
 });
 
 const no = document.getElementById('noThrowTrash'); //Variable para en caso de que el usuario pulse no
 
-question.addEventListener('click', function(){
+no.addEventListener('click', function(){
     console.log("No le picaste we");
 
 });
