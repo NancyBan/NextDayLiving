@@ -11,11 +11,22 @@
     left: 45%;
 }
 
-.img2.throw{
+.img2{
     animation: throw 5s linear;
 }
 
+.gift{
+    animation: throw 5s linear;;
+}
+
 @-webkit-keyframes throw{
+    0%{
+
+    }
+
+    100%{
+        
+    }
 /*
 cuando pone si, sobreponer un canva
 poner un canva con la animacion de la bolsa volando
@@ -65,3 +76,4 @@ poner un canva con la animacion de la bolsa volando
         transform: rotate(0deg);
     }
 }
+
