@@ -15,22 +15,22 @@
     animation: throw 5s linear;
 }
 
+#giftTrash{
+    bottom: 20%;
+    right: 50%;
+}
 .gift{
-    animation: throw 5s linear;;
+    animation: throw 4.66s linear;
 }
 
 @-webkit-keyframes throw{
     0%{
-
+        right: 25%;
     }
 
     100%{
-        
+        right: 8%;
     }
-/*
-cuando pone si, sobreponer un canva
-poner un canva con la animacion de la bolsa volando
-*/
 }
 
 .img3{
