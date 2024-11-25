@@ -12,8 +12,9 @@
 }
 
 .img2{
-    /*animation: throw 5s linear;*/
+    animation: throw 5s linear;
 }
+
 
 #giftTrash{
     bottom: 20%;
