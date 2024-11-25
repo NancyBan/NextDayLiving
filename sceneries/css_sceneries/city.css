@@ -45,6 +45,7 @@
 .decisionTrashBag div div:last-child p {
     width: 100%;
     margin: auto;
+    cursor: pointer;
 }
 
 .decisionTrashBag div div:last-child hr {
