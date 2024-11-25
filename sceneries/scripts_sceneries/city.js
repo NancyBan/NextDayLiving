@@ -14,7 +14,6 @@ yes.addEventListener('click', function(){
         if(imgTrash){ 
             imgTrash.remove();
         }
-        trashBag.style.display = ""
         giftTrash.setAttribute('class', '');
     }, 4000);
 });
