@@ -7,13 +7,16 @@
 }
 
 .decisionTrashBag{
-    visibility: visible;
-    opacity: 1;
     position: absolute;
     top: 23%;
     left: 44%;
     height: 11rem;
     width: 15rem;
+}
+
+.decisionTrashBag.active{
+    visibility: visible;
+    opacity: 1;
 }
 
 .decisionTrashBag > div{
