@@ -37,7 +37,7 @@ yes.addEventListener('click', function () {
         // Acción para el primer clic
         trashBag.style.animation = 'none';
         trashBag.offsetHeight; // Forzar un reflujo para reiniciar la animación
-        trashBag.style.animation = "throw 5s linear";
+        trashBag.style.animation = "throw";
 
         boxQuestion.classList.remove("active");
         giftTrash.innerHTML = '<img src="imgs_sceneries/basurita.gif">';
