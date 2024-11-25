@@ -15,7 +15,7 @@ yes.addEventListener('click', function(){
             imgTrash.remove();
         }
         trashBag.style.display = ""
-        giftTrash.setAttribute('', '');
+        giftTrash.setAttribute('class', '');
     }, 4);
 });
 
