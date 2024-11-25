@@ -2,6 +2,8 @@ const giftTrash = document.getElementById('giftTrash');
 
 const yes = document.getElementById('throwTrash'); //Variable para en caso de que el usuario pulse si
 /*
+este da una vuelta y el resto bien
+
 yes.addEventListener('click', function(){
     trashBag.style.animation = 'none';
     trashBag.offsetHeight;
@@ -23,6 +25,7 @@ yes.addEventListener('click', function(){
     }, 4000);
 });
 */
+/*este se va chueco y luego bien */
 
 let clickCount = 0; // Contador de clics
 
