@@ -16,7 +16,7 @@ yes.addEventListener('click', function(){
         }
         trashBag.style.display = ""
         giftTrash.setAttribute('class', '');
-    }, 4);
+    }, 4000);
 });
 
 const no = document.getElementById('noThrowTrash'); //Variable para en caso de que el usuario pulse no
