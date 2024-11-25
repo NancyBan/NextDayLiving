@@ -10,7 +10,7 @@
     visibility: visible;
     opacity: 1;
     position: absolute;
-    bottom: 56%;
+    top: 23%;
     left: 44%;
     height: 11rem;
     width: 15rem;
@@ -25,6 +25,7 @@
 
 .decisionTrashBag div div{
     display: block;
+    position: static;
     padding: 0;
 }
 
@@ -38,7 +39,7 @@
     justify-content: space-around;
 }
 
-.decitionTrashBag div div:last-child hr {
+.decisionTrashBag div div:last-child hr {
     height: 60%;
 }
 
