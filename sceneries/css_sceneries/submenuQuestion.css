@@ -1,5 +1,5 @@
 
-.submenu{
+.decisionTrashBag{
     position: absolute;
     top: 23%;
     left: 44%;
@@ -7,19 +7,19 @@
     width: 15rem;
 }
 
-.submenu.active{
+.decisionTrashBag.active{
     visibility: visible;
     opacity: 1;
 }
 
-.submenu > div{
+.decisionTrashBag > div{
     height: calc(100% - 30px);
     width: calc(100% - 30px);
     display: grid;
     grid-auto-rows: 50%;
 }
 
-.submenu div div{
+.decisionTrashBag div div{
     display: block;
     position: static;
     padding: 0;
@@ -29,18 +29,18 @@
     height: 100%;
 }
 
-.submenu div div:last-child{
+.decisionTrashBag div div:last-child{
     display: flex;
     flex-direction: row;
     text-align: center;
 }
 
-.submenu div div:last-child p {
+.decisionTrashBag div div:last-child p {
     width: 100%;
     margin: auto;
     cursor: pointer;
 }
 
-.submenu div div:last-child hr {
+.decisionTrashBag div div:last-child hr {
     height: 60%;
 }
