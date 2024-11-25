@@ -39,7 +39,12 @@
 .decisionTrashBag div div:last-child{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    text-align: center;
+}
+
+.decisionTrashBag div div:last-child p {
+    width: 100%;
+    margin: auto;
 }
 
 .decisionTrashBag div div:last-child hr {
