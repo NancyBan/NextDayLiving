@@ -21,7 +21,8 @@
     right: 35%;
 }
 .gift{
-    animation: throw 4.66s linear;
+    /*animation: throw 4.66s linear;*/
+    animation: throw 5s linear;
 }
 
 .gift img{
