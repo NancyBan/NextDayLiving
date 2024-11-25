@@ -57,6 +57,14 @@
     left: 45%;
 }
 
+.img2.throw{
+    animation: throw 5s linear;
+}
+
+@-webkit-keyframes shake{
+
+}
+
 .img3{
     right: 8%;
 }
