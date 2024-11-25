@@ -61,8 +61,11 @@
     animation: throw 5s linear;
 }
 
-@-webkit-keyframes shake{
-
+@-webkit-keyframes throw{
+/*
+cuando pone si, sobreponer un canva
+poner un canva con la animacion de la bolsa volando
+*/
 }
 
 .img3{

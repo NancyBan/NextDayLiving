@@ -1,0 +1,25 @@
+.img{
+
+}
+
+.img1{
+    bottom: 10%;
+    right: 10%;
+}
+
+.img2{
+    bottom: 3%;
+    left: 33%;
+}
+
+.img3{
+
+}
+
+.img1 img{
+    height: 28rem;
+}
+
+.img2 img{
+    height: 17rem;
+}

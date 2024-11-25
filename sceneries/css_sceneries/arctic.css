@@ -1,0 +1,20 @@
+.img{
+    bottom: 10%;
+}
+
+.img2{
+    right: 20%;
+}
+
+.img3{
+    bottom: 16%;
+    left: 35%;
+}
+
+.img img{
+    cursor: pointer;
+}
+
+.img3 img{
+    height: 7rem;
+}
