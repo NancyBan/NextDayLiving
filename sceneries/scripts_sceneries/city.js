@@ -8,12 +8,15 @@ yes.addEventListener('click', function(){
     giftTrash.setAttribute('class', 'gift');
     
     boxQuestion.classList.remove("active");
+    const imgTrash = document.querySelector('#giftTrash img');
     
     setTimeout(()=> {
-        giftTrash.remove();
+        if(imgTrash){ 
+            imgTrash.remove();
+        }
         trashBag.style.display = ""
         giftTrash.setAttribute('', '');
-    }, 4660);
+    }, 4);
 });
 
 const no = document.getElementById('noThrowTrash'); //Variable para en caso de que el usuario pulse no
