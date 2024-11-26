@@ -27,22 +27,50 @@ yes.addEventListener('click', function(){
 
 
 yes.addEventListener('click', function(){
-    // Ocultamos la bolsa de basura original
-    trashBag.style.display = "none";
-    
-    // Mostramos el gif con la animación
-    giftTrash.innerHTML = '<img src="imgs_sceneries/basurita.gif">';
-    giftTrash.setAttribute('class', 'gift');
-    
-    // Después de 4.66s (duración del gif y la animación) limpiamos todo
-    setTimeout(() => {
-        giftTrash.innerHTML = '';
-        giftTrash.setAttribute('class', '');
+   let clickCount = 0; // Contador de clics
+
+yes.addEventListener('click', function () {
+    clickCount++; // Incrementar el contador
+    console.log(`Se hizo clic ${clickCount} veces`);
+
+    if (clickCount === 1) {
+        // Acción para el primer clic
+        trashBag.style.animation = 'none';
+        trashBag.offsetHeight; // Forzar un reflujo para reiniciar la animación
+        trashBag.style.animation = "throw 5s linear";
+
+        boxQuestion.classList.remove("active");
+        giftTrash.innerHTML = '<img src="imgs_sceneries/basurita.gif">';
+        giftTrash.setAttribute('class', 'gift');
+        trashBag.style.display = "none";
+
+        const imgTrash = document.querySelector('#giftTrash img');
+
+        setTimeout(() => {
+            if (imgTrash) {
+                imgTrash.remove();
+            }
+            giftTrash.setAttribute('class', '');
+            trashBag.style.display = "block";
+        }, 4000);
+
+    } else if (clickCount === 2) {
+        // Acción para el segundo clic
+        console.log("Acción específica para el segundo clic.");
         trashBag.style.display = "block";
-    }, 4660); // 4.66s en milisegundos
+
+        // Reiniciar el contador si quieres que vuelva a empezar
+        clickCount = 0;
+    }
+});
 });*/
 
 yes.addEventListener('click', function(){
+    let clickCount = 0
+
+    clickCount++; // Incrementar el contador
+    console.log(`Se hizo clic ${clickCount} veces`);
+
     giftTrash.style.animation = 'none';
     giftTrash.offsetHeight;
     giftTrash.style.animation = "throw 4.8s linear";
