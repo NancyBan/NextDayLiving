@@ -38,6 +38,7 @@ yes.addEventListener('click', function(){
     setTimeout(() => {
         giftTrash.innerHTML = '';
         giftTrash.setAttribute('class', '');
+        trashBag.style.display = "block";
     }, 4660); // 4.66s en milisegundos
 });
 
