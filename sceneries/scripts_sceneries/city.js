@@ -47,7 +47,7 @@ yes.addEventListener('click', function(){
     giftTrash.offsetHeight;
     giftTrash.style.animation = "throw 4.8s linear";
 
-    // Ocultamos la bolsa de basura original
+    boxQuestion.classList.remove("active");
     trashBag.style.display = "none";
     
     // Mostramos el gif con la animación
