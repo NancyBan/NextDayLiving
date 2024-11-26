@@ -17,8 +17,9 @@
 }
 
 .gift{
-    animation: throw 4.7s linear;
+    animation: throw 5s linear;
 }
+
 
 .gift img{
     height: 23rem;
@@ -28,7 +29,6 @@
     0%{
         right: 25%;
     }
-
     100%{
         right: 8%;
     }

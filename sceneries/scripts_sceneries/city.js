@@ -24,7 +24,7 @@ yes.addEventListener('click', function(){
         trashBag.style.display = "block";
     }, 4000);
 });
-*/
+
 
 yes.addEventListener('click', function(){
     // Ocultamos la bolsa de basura original
@@ -40,6 +40,25 @@ yes.addEventListener('click', function(){
         giftTrash.setAttribute('class', '');
         trashBag.style.display = "block";
     }, 4660); // 4.66s en milisegundos
+});*/
+
+yes.addEventListener('click', function(){
+    // Ocultamos la bolsa de basura original
+    trashBag.style.display = "none";
+    
+    // Mostramos el gif con la animación
+    giftTrash.innerHTML = '<img src="imgs_sceneries/basurita.gif">';
+    giftTrash.setAttribute('class', 'gift');
+    
+    // Esperamos a que termine la animación
+    const imgTrash = document.querySelector('#giftTrash img');
+    
+    setTimeout(() => {
+        if(imgTrash){ 
+            imgTrash.remove();
+        }
+        giftTrash.setAttribute('class', '');
+    }, 5000); // Aumentamos un poco el tiempo para asegurar que el gif termine
 });
 
 const no = document.getElementById('noThrowTrash'); //Variable para en caso de que el usuario pulse no
