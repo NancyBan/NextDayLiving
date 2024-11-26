@@ -66,10 +66,6 @@ yes.addEventListener('click', function () {
 });*/
 
 yes.addEventListener('click', function(){
-    let clickCount = 0
-
-    clickCount++; // Incrementar el contador
-    console.log(`Se hizo clic ${clickCount} veces`);
 
     giftTrash.style.animation = 'none';
     giftTrash.offsetHeight;

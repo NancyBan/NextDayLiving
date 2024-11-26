@@ -27,6 +27,9 @@
 
 @-webkit-keyframes throw{
     0%{
+        right: 8%;
+    }
+    1%{
         right: 25%;
     }
     100%{
