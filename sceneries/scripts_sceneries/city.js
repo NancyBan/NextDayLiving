@@ -87,7 +87,7 @@ yes.addEventListener('click', function(){
         }
         giftTrash.setAttribute('class', '');
         giftTrash.style.animation = "";
-    }, 4600);
+    }, 4000);
 });
 
 const no = document.getElementById('noThrowTrash'); //Variable para en caso de que el usuario pulse no
