@@ -11,17 +11,12 @@
     left: 45%;
 }
 
-#giftTrash{
+#gifTrash{
     bottom: 20%;
     right: 35%;
 }
 
-.gift{
-    /*animation: throw 5s 1s linear;*/
-}
-
-
-.gift img{
+.gif img{
     height: 23rem;
 }
 
@@ -77,4 +72,3 @@
         transform: rotate(0deg);
     }
 }
-

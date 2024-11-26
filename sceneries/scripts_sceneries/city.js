@@ -1,4 +1,4 @@
-const giftTrash = document.getElementById('giftTrash');
+const gifTrash = document.getElementById('gifTrash');
 
 const yes = document.getElementById('throwTrash'); //Variable para en caso de que el usuario pulse si
 /*
@@ -67,26 +67,26 @@ yes.addEventListener('click', function () {
 
 yes.addEventListener('click', function(){
 
-    giftTrash.style.animation = 'none';
-    giftTrash.offsetHeight;
-    giftTrash.style.animation = "throw 4.8s linear";
+    gifTrash.style.animation = 'none';
+    gifTrash.offsetHeight;
+    gifTrash.style.animation = "throw 4.8s linear";
 
     boxQuestion.classList.remove("active");
     trashBag.style.display = "none";
     
     // Mostramos el gif con la animación
-    giftTrash.innerHTML = '<img src="imgs_sceneries/basurita.gif">';
-    giftTrash.setAttribute('class', 'gift');
+    gifTrash.innerHTML = '<img src="imgs_sceneries/basurita.gif">';
+    gifTrash.setAttribute('class', 'gif');
     
     // Esperamos a que termine la animación
-    const imgTrash = document.querySelector('#giftTrash img');
+    const imgTrash = document.querySelector('#gifTrash img');
     
     setTimeout(() => {
         if(imgTrash){ 
             imgTrash.remove();
         }
-        giftTrash.setAttribute('class', '');
-        giftTrash.style.animation = "";
+        gifTrash.setAttribute('class', '');
+        gifTrash.style.animation = "";
     }, 4400);
 });
 
