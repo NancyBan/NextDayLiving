@@ -45,7 +45,7 @@ yes.addEventListener('click', function(){
 yes.addEventListener('click', function(){
     giftTrash.style.animation = 'none';
     giftTrash.offsetHeight;
-    giftTrash.style.animation = "throw 5s 1s linear";
+    giftTrash.style.animation = "throw 5s linear";
 
     // Ocultamos la bolsa de basura original
     trashBag.style.display = "none";
@@ -62,7 +62,7 @@ yes.addEventListener('click', function(){
             imgTrash.remove();
         }
         giftTrash.setAttribute('class', '');
-    }, 5000); // Aumentamos un poco el tiempo para asegurar que el gif termine
+    }, 4660); // Aumentamos un poco el tiempo para asegurar que el gif termine
 });
 
 const no = document.getElementById('noThrowTrash'); //Variable para en caso de que el usuario pulse no
