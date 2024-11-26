@@ -43,6 +43,10 @@ yes.addEventListener('click', function(){
 });*/
 
 yes.addEventListener('click', function(){
+    trashBag.style.animation = 'none';
+    trashBag.offsetHeight;
+    trashBag.style.animation = "throw 5s 1s linear";
+
     // Ocultamos la bolsa de basura original
     trashBag.style.display = "none";
     
