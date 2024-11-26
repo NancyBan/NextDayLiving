@@ -86,6 +86,7 @@ yes.addEventListener('click', function(){
             imgTrash.remove();
         }
         giftTrash.setAttribute('class', '');
+        giftTrash.style.animation = "";
     }, 4660);
 });
 
