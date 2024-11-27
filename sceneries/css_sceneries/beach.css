@@ -22,14 +22,14 @@ nav i:first-child{
     cursor: pointer;
 }
 
-.decisionTrashBag{
+.trash{
     height: 6rem;
     top: 59%;
     left: 53%;
     cursor: pointer;
 }
 
-.decisionTrashBag > div{
+.trash > div{
     grid-auto-rows: 0;
     align-items: center;
     justify-content: center;

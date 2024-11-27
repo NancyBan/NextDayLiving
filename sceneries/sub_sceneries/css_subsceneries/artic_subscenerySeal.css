@@ -1,4 +1,4 @@
-fu.img1{
+.img1{
     right: 54%;
     bottom: 6%;
 }
@@ -10,6 +10,6 @@ fu.img1{
     right: 31%;
     bottom: -22%;
 }
-img .img2{
+.img2 img{
     height: 16rem;
 }

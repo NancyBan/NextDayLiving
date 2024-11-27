@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <script>
-            fetch('../../templates/template.head.html')
-                .then(response => response.text())
-                .then(data => {
-                    const head = document.querySelector('head');
-                    head.insertAdjacentHTML('afterbegin', data);
-    
-                    const faviconLink = document.querySelector('link[rel="shortcut icon"]');
-                    if (faviconLink) {
-                        faviconLink.setAttribute('href', '../../imgs_index/shortcut_icon.png');
-                    }
-    
-                    const stylesheetLink = document.querySelector('link[rel="stylesheet"]');
-                    if (stylesheetLink) {
-                        stylesheetLink.setAttribute('href', '../../css_general/header.css');
-                    }
-                });
-        </script>
+<head>
+    <script>
+        fetch('../../templates/template.head.html')
+            .then(response => response.text())
+            .then(data => {
+                const head = document.querySelector('head');
+                head.insertAdjacentHTML('afterbegin', data);
 
-        <title>Artic</title>
-        <link rel="stylesheet" href="css_subsceneries/artic_subsceneSeal.css">
-    </head>
+                const faviconLink = document.querySelector('link[rel="shortcut icon"]');
+                if (faviconLink) {
+                    faviconLink.setAttribute('href', '../../imgs_index/shortcut_icon.png');
+                }
+
+                const stylesheetLink = document.querySelector('link[rel="stylesheet"]');
+                if (stylesheetLink) {
+                    stylesheetLink.setAttribute('href', '../../css_general/header.css');
+                }
+            });
+    </script>
+
+    <title>Artic</title>
+    <link rel="stylesheet" href="css_subsceneries/artic_subscenerieBear.css">
+</head>
     
 <body>
     <div id="header">
@@ -54,11 +54,10 @@
     </div>
 
     <div id="container">
-        <div id="background"><img src="imgs_sub_sceneries/artic_sealBackground.jpg"></div>
+        <div id="background"><img src="imgs_sub_sceneries/artic_bearBackground.jpg"></div>
         
         <main>
-            <div class="img1"><img src="imgs_sub_sceneries/artic_sealSad.png"></div>
-            <div class="img2"><img src="imgs_sub_sceneries/arctic_animalOrca.png"></div>
+            <div class="img1"><img src="imgs_sub_sceneries/artic_animalWavingBear.png"></div>
         </main>
         <script src="index.js"></script> <!--no hay :D-->
     </div>
