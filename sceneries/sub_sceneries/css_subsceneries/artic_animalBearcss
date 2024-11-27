@@ -1,0 +1,8 @@
+.img1{
+    bottom: 49%;
+    right: 35%;
+}
+
+.img1{
+    height: 13rem;
+}
