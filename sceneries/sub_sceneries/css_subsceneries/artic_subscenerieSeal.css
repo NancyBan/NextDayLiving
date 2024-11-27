@@ -1,15 +1,15 @@
-.img1{
+fu.img1{
     right: 54%;
     bottom: 6%;
 }
-.img1{
+.img1 img{
     height: 45rem;
 }
 
 .img2{
-    right: 54%;
-    bottom: 6%;
+    right: 31%;
+    bottom: -22%;
 }
-.img2{
-    height: 15rem;
+img .img2{
+    height: 16rem;
 }
