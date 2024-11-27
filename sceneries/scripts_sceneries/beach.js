@@ -1,5 +1,5 @@
 const trash = document.querySelector('.trash');
-const question = document.querySelector('.question');
+const question = document.querySelector('.trash .question');
 
 trash.addEventListener('click', function(){
     question.innerText = "Al mar JAJJAJ";

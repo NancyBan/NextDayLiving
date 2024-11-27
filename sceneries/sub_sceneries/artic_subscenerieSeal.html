@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <script>
+            fetch('../../templates/template.head.html')
+                .then(response => response.text())
+                .then(data => {
+                    const head = document.querySelector('head');
+                    head.insertAdjacentHTML('afterbegin', data);
+    
+                    const faviconLink = document.querySelector('link[rel="shortcut icon"]');
+                    if (faviconLink) {
+                        faviconLink.setAttribute('href', '../../imgs_index/shortcut_icon.png');
+                    }
+    
+                    const stylesheetLink = document.querySelector('link[rel="stylesheet"]');
+                    if (stylesheetLink) {
+                        stylesheetLink.setAttribute('href', '../../css_general/header.css');
+                    }
+                });
+        </script>
+
+        <title>Artic</title>
+        <link rel="stylesheet" href="css_subsceneries/artic_subscenerySeal.css">
+    </head>
+    
+<body>
+    <div id="header">
+        <script>
+            fetch('../../templates/template.header.html')
+                .then(response => response.text())
+                .then(data => {
+                document.getElementById('header').innerHTML = data;
+                const navLink = document.querySelector('#header nav a');
+                if (navLink) {
+                    navLink.setAttribute('href', '../artic.html');
+                }
+        
+                const instaIcons = document.querySelectorAll('.submenu img');
+                instaIcons.forEach(instaIcon => {
+                    instaIcon.setAttribute('src', '../../imgs_index/instagramIcon.png');
+                });
+
+                const menu = document.querySelector('.bx-menu');
+                const subMenu = document.querySelector('.submenu');
+        
+                if (menu && subMenu) {
+                    menu.addEventListener('click', function () {
+                    subMenu.classList.toggle("active");
+                    });
+                }
+            });
+        </script>
+    </div>
+
+    <div id="container">
+        <div id="background"><img src="imgs_sub_sceneries/artic_sealBackground.jpg"></div>
+        
+        <main>
+            <div class="img1"><img src="imgs_sub_sceneries/artic_sealSad.png"></div>
+            <div class="img2"><img src="imgs_sub_sceneries/arctic_animalOrca.png"></div>
+        </main>
+        <script src="index.js"></script> <!--no hay :D-->
+    </div>
+    
+</body>
+</html>

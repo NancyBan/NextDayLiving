@@ -25,6 +25,8 @@ nav i:first-child{
 .sea{
     visibility: visible;
     opacity: 1;
+    top: 28%;
+    left: 9%;
 }
 
 .sea > div{
