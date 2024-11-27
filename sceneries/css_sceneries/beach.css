@@ -23,6 +23,13 @@ nav i:first-child{
 }
 
 .decisionTrashBag{
-    top: 37%;
-    left: 57%;
+    height: 6rem;
+    top: 59%;
+    left: 53%;
+}
+
+.decisionTrashBag > div{
+    grid-auto-rows: 0;
+    align-items: center;
+    justify-content: center;
 }
