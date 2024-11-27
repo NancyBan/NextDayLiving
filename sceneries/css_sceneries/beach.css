@@ -22,6 +22,10 @@ nav i:first-child{
     cursor: pointer;
 }
 
+.sea > div{
+    grid-auto-rows: 63% 1fr;
+}
+
 .trash{
     height: 6rem;
     top: 59%;
