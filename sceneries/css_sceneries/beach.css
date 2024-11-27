@@ -33,6 +33,10 @@ nav i:first-child{
     grid-auto-rows: 63% 1fr;
 }
 
+.sea div div{
+    text-align: center;
+}
+
 .trash{
     height: 6rem;
     top: 59%;
