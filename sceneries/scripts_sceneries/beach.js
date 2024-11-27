@@ -1,4 +1,4 @@
-const trash = document.querySelector('.decisionTrashBag');
+const trash = document.querySelector('.sea');
 const question = document.querySelector('.question');
 
 trash.addEventListener('click', function(){
