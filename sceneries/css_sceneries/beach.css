@@ -22,6 +22,11 @@ nav i:first-child{
     cursor: pointer;
 }
 
+.sea{
+    visibility: visible;
+    opacity: 1;
+}
+
 .sea > div{
     grid-auto-rows: 63% 1fr;
 }
