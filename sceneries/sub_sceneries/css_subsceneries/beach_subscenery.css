@@ -1,16 +1,39 @@
 .img1{
     bottom: 30%;
-    right: 0%;
+    right: -17%;
+    animation: swim 8s linear;
+    transform: rotate(-103deg);
 }
 
 .img1 img{
     height: 24rem;
-    transform: rotate(-81deg);
-    animation: swim 10s linear;
 }
 
 @-webkit-keyframes swim{
     0%{
-
+        right: -17%;
+        transform: rotate(-69deg);
+    }
+    15%{
+        transform: rotate(-103deg);
+    }
+    30%{
+        transform: rotate(-69deg);
+    }
+    45%{
+        transform: rotate(-103deg);
+    }
+    60%{
+        transform: rotate(-69deg);
+    }
+    75%{
+        transform: rotate(-103deg);
+    }
+    90%{
+        transform: rotate(-69deg);
+    }
+    100%{
+        right: 100%;
+        transform: rotate(-103deg);
     }
 }
