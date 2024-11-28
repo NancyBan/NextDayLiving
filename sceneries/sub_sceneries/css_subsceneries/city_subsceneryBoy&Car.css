@@ -2,22 +2,22 @@
     right: 11%;
     bottom: 10%;
 }
-.img2 img{
+.img1 img{
     height: 20rem;
 }
 
 .img2{
-    
+    bottom: 10%;
+    right: 64%;
+}
+.img2 img{
+    height: 15rem;
 }
 
 .img3{
-    
+    bottom: 10%;
+    right: 64%;
 }
-
-.img img{
-    
-}
-
 .img3 img{
-    
+    height: 13rem;
 }
