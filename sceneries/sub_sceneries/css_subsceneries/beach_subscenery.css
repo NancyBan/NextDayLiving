@@ -6,4 +6,11 @@
 .img img{
     height: 24rem;
     transform: rotate(-81deg);
+    animation: swim 10s linear;
+}
+
+@-webkit-keyframes swim{
+    0%{
+        
+    }
 }
