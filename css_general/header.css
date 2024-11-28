@@ -98,3 +98,20 @@ main img{
     height: 13rem;
     user-select: none;
 }
+
+.sign{
+    height: 6rem;
+    width: 10rem;
+    top: 50%;
+    right: 20%;
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+}
+
+.sign div{
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    text-align: center;
+    justify-content: center;
+}
