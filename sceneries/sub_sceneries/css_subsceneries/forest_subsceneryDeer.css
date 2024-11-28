@@ -28,7 +28,7 @@
     display: none;
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: relative;
     z-index: 10000;
 }
 
