@@ -17,15 +17,21 @@ const chemical = document.getElementById('chemical');
 
 physical.addEventListener('click', function(){
 
-    window.location.href = 'sub_sceneries/beach_subscenery.html'
+    setTimeout(function () {
+        window.location.href = 'sub_sceneries/beach_subscenery.html';
+    }, 0);
+
     setTimeout(function () {
         window.location.href = 'sub_sceneries/beach_subscenery_good.html';
     }, 3000);
-
 });
 
 chemical.addEventListener('click', function(){
-    window.location.href = 'sub_sceneries/beach_subscenery.html'
+    
+    setTimeout(function () {
+        window.location.href = 'sub_sceneries/beach_subscenery.html';
+    }, 0);
+
     setTimeout(function () {
         window.location.href = 'sub_sceneries/beach_subscenery_bad.html';
     }, 3000);
