@@ -11,10 +11,25 @@ trashBag.addEventListener('click', function(){
     trash.classList.toggle("active");
 });
 
+//const sea = document.querySelector('.sea');
+const physical = document.getElementById('physical');
+const chemical = document.getElementById('chemical');
 
-const sea = document.querySelector('.sea');
-trashBag.addEventListener('click', function(){
-    
+physical.addEventListener('click', function(){
+
+    window.location.href = 'sub_sceneries/beach_subscenery.html'
+    setTimeout(function () {
+        window.location.href = 'sub_sceneries/beach_subscenery_good.html';
+    }, 3000);
+
+});
+
+chemical.addEventListener('click', function(){
+    window.location.href = 'sub_sceneries/beach_subscenery.html'
+    setTimeout(function () {
+        window.location.href = 'sub_sceneries/beach_subscenery_bad.html';
+    }, 3000);
+
 });
 
 

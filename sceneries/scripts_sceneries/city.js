@@ -24,6 +24,11 @@ yes.addEventListener('click', function(){
         gifTrash.setAttribute('class', '');
         gifTrash.style.animation = "";
         confetti.style.display = "block";
+
+        setTimeout(() => {
+            confetti.style.display = "none";
+        }, 5000);
+        
     }, 4400);
 });
 
