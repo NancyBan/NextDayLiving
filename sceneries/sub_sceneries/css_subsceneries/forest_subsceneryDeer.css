@@ -9,7 +9,17 @@
 
 .sign{
     height: 6rem;
+    width: 10rem;
     top: 59%;
-    left: 53%;
+    right: 35%;
     cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+}
+
+.sign div{
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+    text-align: center;
+    justify-content: center;
 }
