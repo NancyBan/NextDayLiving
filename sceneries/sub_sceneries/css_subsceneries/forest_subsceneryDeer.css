@@ -6,3 +6,10 @@
     transform: rotate(-24deg);
     height: 24rem;
 }
+
+.sign{
+    height: 6rem;
+    top: 59%;
+    left: 53%;
+    cursor: pointer;
+}
