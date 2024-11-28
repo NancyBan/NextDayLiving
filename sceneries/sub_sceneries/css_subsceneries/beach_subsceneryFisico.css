@@ -1,15 +1,23 @@
 .img1{
-    right: 67%;
-    bottom: 46%;
+    right: 53%;
+    bottom: 26%;
 }
 .img1 img{
-    height: 23rem;
+    height: 10rem;
 }
 
 .img2{
-    bottom: 16%;
-    right: 8%;
+    right: 50%;
+    bottom: 54%;
 }
 .img2 img{
+    height: 6rem;
+}
+
+.img3{
+    right: 62%;
+    bottom: 12%;
+}
+.img3 img{
     height: 31rem;
 }
