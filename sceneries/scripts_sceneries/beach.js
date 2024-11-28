@@ -20,22 +20,24 @@ physical.addEventListener('click', function(){
     setTimeout(function () {
         window.location.href = 'sub_sceneries/beach_subscenery.html';
     }, 0);
-
+    
+/* en sub escenario
     setTimeout(function () {
         window.location.href = 'sub_sceneries/beach_subscenery_good.html';
     }, 3000);
+    */
 });
 
 chemical.addEventListener('click', function(){
-    
+
     setTimeout(function () {
         window.location.href = 'sub_sceneries/beach_subscenery.html';
     }, 0);
-
+/*
     setTimeout(function () {
         window.location.href = 'sub_sceneries/beach_subscenery_bad.html';
     }, 3000);
-
+*/
 });
 
 
