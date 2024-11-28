@@ -1,4 +1,5 @@
 const gifTrash = document.getElementById('gifTrash');
+const confetti = document.getElementById('confetti');
 
 const yes = document.getElementById('throwTrash');
 
@@ -22,6 +23,7 @@ yes.addEventListener('click', function(){
         }
         gifTrash.setAttribute('class', '');
         gifTrash.style.animation = "";
+        confetti.style.display = "block";
     }, 4400);
 });
 

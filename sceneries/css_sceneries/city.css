@@ -1,3 +1,15 @@
+#confetti{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+
+#confetti img{
+    height: 100%;
+    width: 100%;
+} 
+
 .img{
     bottom: 18%;
 }
