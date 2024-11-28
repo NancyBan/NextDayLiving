@@ -8,5 +8,5 @@ window.addEventListener('load', function() {
         } else if (choice === 'bad') {
             window.location.href = 'beach_subscenery_bad.html';
         }
-    }, 3000);
+    }, 8010);
 });
