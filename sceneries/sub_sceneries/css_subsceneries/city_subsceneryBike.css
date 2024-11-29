@@ -1,8 +1,16 @@
-.img1{
+ .img1{
     bottom: 4%;
     left: 18%;
 }
 
 .img1 img{
     height: 16rem;
+}
+
+.sign{
+    width: 17rem;
+    height: 8rem;
+    top: 18%;
+    left: 19%;
+    cursor: default;
 }
