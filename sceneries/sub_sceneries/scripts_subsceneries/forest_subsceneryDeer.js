@@ -7,8 +7,8 @@ sign.addEventListener('click', function() {
     contentVideo.style.display = "block";
 
     video.addEventListener('ended', function(){
-        contentVideo.style.display = "none";
         window.location.href = 'forest_subsceneryDeerSad.html';
+        contentVideo.style.display = "none";
     });
 
 });
