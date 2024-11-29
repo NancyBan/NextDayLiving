@@ -3,3 +3,11 @@
     left: 10%;
     transform: scaleX(-1);
 }
+
+.sign{
+    width: 17rem;
+    height: 8rem;
+    top: 18%;
+    left: 19%;
+    cursor: default;
+}
