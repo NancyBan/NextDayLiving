@@ -4,10 +4,9 @@
     transform: scaleX(-1);
 }
 
-.sign{
+.sign {
     width: 17rem;
     height: 8rem;
-    top: 18%;
-    left: 19%;
-    cursor: default;
+    top: 41%;
+    left: 21%;
 }
