@@ -10,6 +10,7 @@ nav i:first-child{
 .img2{
     top: 76%;
     right: 40%;
+    animation: throw 8s linear;
 }
 
 .img1 img{
@@ -20,7 +21,6 @@ nav i:first-child{
     height: 5rem;
     transform: rotate(45deg);
     cursor: pointer;
-    animation: throw 8s linear;
 }
 
 @-webkit-keyframes throw{
