@@ -10,7 +10,7 @@ nav i:first-child{
 .img2{
     top: 76%;
     right: 40%;
-    animation: throw 8s linear;
+    animation: throw 1s linear;
 }
 
 .img1 img{
@@ -29,7 +29,8 @@ nav i:first-child{
         
     }
     15%{
-        
+        top: 71%;
+        right: 41%;
     }
     30%{
         
