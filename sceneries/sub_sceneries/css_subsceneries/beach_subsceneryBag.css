@@ -17,8 +17,13 @@
     bottom: 2%;
     right: 1%;
     display: none;
+    animation: rotate 1s linear;
 }
 
 .img1 img{
     height: 36.5rem;
+}
+
+@-webkit-keyframes rotate{
+
 }
