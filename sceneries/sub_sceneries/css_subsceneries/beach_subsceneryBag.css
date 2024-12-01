@@ -1,4 +1,14 @@
+.sign1{
+    height: 7rem;
+    width: 11rem;
+    top: 30%;
+    right: 69%;
+}
+
 .sign2{
+    height: 5rem;
+    top: 44%;
+    right: 62%;
     opacity: 0;
     visibility: hidden;
 }
