@@ -6,7 +6,9 @@ setTimeout(()=> {
 }, 2000);
 
 const background = document.querySelector('#background img');
-const turtle = document.que
+const turtle = document.querySelector('.img1');
+
 setTimeout(()=> {
-    background.setAttribute('src', 'imgs_sub_sceneries/beach_backgroundTurtle2.jpg')
+    turtle.style.display = "block";
+    background.setAttribute('src', 'imgs_sub_sceneries/beach_backgroundTurtle2.jpg');
 }, 4000);

@@ -16,6 +16,7 @@
 .img1{
     bottom: 0%;
     right: -1%;
+    display: none;
 }
 
 .img1 img{
