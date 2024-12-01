@@ -10,5 +10,5 @@ const turtle = document.querySelector('.img1');
 
 setTimeout(()=> {
     turtle.style.display = "block";
-    /*background.setAttribute('src', 'imgs_sub_sceneries/beach_backgroundTurtle2.jpg');*/
+    background.setAttribute('src', 'imgs_sub_sceneries/beach_backgroundTurtle2.jpg');
 }, 4000);
