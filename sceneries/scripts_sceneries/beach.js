@@ -3,6 +3,9 @@ const question = document.querySelector('.trash .question');
 
 trash.addEventListener('click', function(){
     question.innerText = "Al mar JAJJAJ";
+    setTimeout(() => {
+        window.location.href = 'beach_subsceneryBag.html';
+    }, 1000);
 });
 
 const trashBag = document.getElementById('trashBag');
