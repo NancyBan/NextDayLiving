@@ -32,3 +32,16 @@
 .img3 a span{
     font-size: 10rem;
 }
+
+.decisionTrashBag{
+    height: 13rem;
+    width: 17rem;
+}
+
+.decisionTrashBag > div{
+    grid-auto-rows: 56%, 1fr;
+}
+
+.decisionTrashBag div div{
+    text-align: center;
+}
