@@ -12,3 +12,12 @@
     opacity: 0;
     visibility: hidden;
 }
+
+.img1{
+    bottom: 0%;
+    right: -1%;
+}
+
+.img1 img{
+    height: 38.5rem;
+}
