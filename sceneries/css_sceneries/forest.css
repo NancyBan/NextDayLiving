@@ -52,7 +52,7 @@
     height: 100%;
     opacity: 0;
     visibility: hidden;
-    transition: 1s linear;
+    transition: 2.8s linear;
     z-index: 1000;
 }
 
