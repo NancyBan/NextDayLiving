@@ -1,6 +1,6 @@
 const optionOff = document.getElementById('optionYes');
 const optionGo = document.getElementById('optionNo');
-const img = document.querySelector('.img_forestFire');
+const img = document.getElementById('img_forestFire');
 
 optionGo.addEventListener('click', function() {
     img.style.visibility = "visible";
