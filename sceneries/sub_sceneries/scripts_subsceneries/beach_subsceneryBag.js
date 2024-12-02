@@ -14,8 +14,12 @@ setTimeout(()=> {
 
         //spam de medusas
         setTimeout(() => {
-            for (let i = 0; i < 20; i++) {
-                setTimeout(() => {
+            let count = 0;
+            const maxMedusas = 20;
+        
+            function spawnMedusa() {
+                if (count >= maxMedusas) return;
+                
                 const medusa = document.createElement('img');
                 medusa.src = 'imgs_sub_sceneries/beach_jellyfish.png';
                 medusa.style.position = 'absolute';
@@ -23,8 +27,11 @@ setTimeout(()=> {
                 medusa.style.top = `${Math.random() * window.innerHeight}px`;
                 medusa.style.width = '10rem';
                 document.body.appendChild(medusa);
-            }, 1000);
+                count++;
+        
+                setTimeout(spawnMedusa, 500);
             }
+            spawnMedusa();
 
         }, 1000);
 
