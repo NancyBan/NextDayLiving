@@ -15,6 +15,7 @@ setTimeout(()=> {
         //spam de medusas
         setTimeout(() => {
             for (let i = 0; i < 20; i++) {
+                setTimeout(() => {
                 const medusa = document.createElement('img');
                 medusa.src = 'imgs_sub_sceneries/beach_jellyfish.png';
                 medusa.style.position = 'absolute';
@@ -22,10 +23,11 @@ setTimeout(()=> {
                 medusa.style.top = `${Math.random() * window.innerHeight}px`;
                 medusa.style.width = '10rem';
                 document.body.appendChild(medusa);
+            }, 1000);
             }
 
-        }, 2000);
-        
+        }, 1000);
+
     }, 2000);
 
 }, 2000);
