@@ -26,6 +26,7 @@ setTimeout(()=> {
                 medusa.style.left = `${Math.random() * window.innerWidth}px`;
                 medusa.style.top = `${Math.random() * window.innerHeight}px`;
                 medusa.style.width = '10rem';
+                medusa.style.zIndex = '1000';
                 document.body.appendChild(medusa);
                 count++;
         
