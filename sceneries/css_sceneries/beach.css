@@ -10,7 +10,6 @@ nav i:first-child{
 .img2{
     top: 76%;
     right: 40%;
-    animation: throw 1s linear;
 }
 
 .img1 img{
@@ -25,27 +24,8 @@ nav i:first-child{
 
 @-webkit-keyframes throw{
     0%{
-        
-        
-    }
-    15%{
         top: 71%;
         right: 41%;
-    }
-    30%{
-        
-    }
-    45%{
-        
-    }
-    60%{
-        
-    }
-    75%{
-        
-    }
-    90%{
-        
     }
     100%{
         top: 53%;
@@ -53,54 +33,6 @@ nav i:first-child{
     }
 }
 
-/*
-@-webkit-keyframes throw{
-    0%{
-        
-        
-    }
-    15%{
-        top: 71%;
-        right: 41%;
-    }
-    30%{
-        top: 63%;
-        right: 42%;
-    }
-34%{
-    top: 57%;
-    right: 45%;
-}
-    37%{
-         top: 56%;
-        right: 46%;
-    }
-    40%{
-        
-    }
-    45%{
-        top: 53%;
-        right: 48%;
-    }
-55%{
-   
-}
-    60%{
-        
-    }
-    75%{
-        
-    }
-    90%{
-        
-    }
-    100%{
-        top: 53%;
-        right: 68%;
-    }
-}
-
-*/
 .sea{
     visibility: visible;
     opacity: 1;
