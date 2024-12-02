@@ -21,7 +21,7 @@
 
 .img1 img{
     height: 36.5rem;
-    animation: rotate 1s linear;
+    animation: rotate 1s ease-in-out forwards;
 }
 
 @-webkit-keyframes rotate{

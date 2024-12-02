@@ -1,7 +1,7 @@
 .img1{
     bottom: 30%;
     right: -17%;
-    animation: swim 8s linear;
+    animation: swim 8s ease-in-out forwards;
     transform: rotate(-103deg);
 }
 
