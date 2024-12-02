@@ -2,7 +2,7 @@ const optionOff = document.getElementById('optionYes');
 const optionGo = document.getElementById('optionNo');
 const img = document.querySelector('.img_forestFire');
 
-optionGo.addEventListener(()=> {
+optionGo.addEventListener('click', function() {
     img.style.visibility = "visible";
     img.style.opacity = "1";
     
