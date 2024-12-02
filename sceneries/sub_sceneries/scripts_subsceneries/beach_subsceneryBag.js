@@ -15,7 +15,7 @@ setTimeout(()=> {
         //spam de medusas
         setTimeout(() => {
             let count = 0;
-            const maxMedusas = 20;
+            const maxMedusas = 50;
         
             function spawnMedusa() {
                 if (count >= maxMedusas) return;
@@ -29,7 +29,7 @@ setTimeout(()=> {
                 document.body.appendChild(medusa);
                 count++;
         
-                setTimeout(spawnMedusa, 500);
+                setTimeout(spawnMedusa, 100);
             }
             spawnMedusa();
 
