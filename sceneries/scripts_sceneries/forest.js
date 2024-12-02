@@ -1,10 +1,11 @@
 const optionOff = document.getElementById('optionYes');
 const optionGo = document.getElementById('optionNo');
+const contentImg = document.querySelector('.content_img_forestFire');
 const img = document.getElementById('img_forestFire');
 
 optionGo.addEventListener('click', function() {
-    img.style.visibility = "visible";
-    img.style.opacity = "1";
+    contentImg.style.visibility = "visible";
+    contentImg.style.opacity = "1";
     
     setTimeout(() => {
         img.src = 'imgs_sceneries/forest_backgroundFireForest2.jpg';
