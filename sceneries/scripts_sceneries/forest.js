@@ -15,6 +15,7 @@ optionGo.addEventListener('click', function() {
             setTimeout(()=> {
                 contentImg.style.visibility = "hidden";
                 contentImg.style.opacity = "0";
+                img.src = 'imgs_sceneries/forest_backgroundFireForest1.jpg';
             }, 3000);
         }, 3000);
     }, 3000);
