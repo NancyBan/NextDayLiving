@@ -45,3 +45,20 @@
 .decisionTrashBag div div{
     text-align: center;
 }
+
+.content_img_forestFire{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s linear;
+    z-index: 1000;
+}
+
+#img_forestFire{
+    width: 100%;
+    height: 100%;
+}
+
+
