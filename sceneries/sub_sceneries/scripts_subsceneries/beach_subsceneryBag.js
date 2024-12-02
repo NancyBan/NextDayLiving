@@ -30,7 +30,7 @@ setTimeout(()=> {
                 document.body.appendChild(medusa);
                 count++;
         
-                setTimeout(spawnMedusa, 100);
+                setTimeout(spawnMedusa, 50);
             }
             spawnMedusa();
 
