@@ -7,11 +7,10 @@ optionGo.addEventListener('click', function() {
     img.style.opacity = "1";
     
     setTimeout(() => {
-        img.src = 'img_sceneries/forest_backgroundFireForest2';
+        img.src = 'img_sceneries/forest_backgroundFireForest2.jpg';
 
         setTimeout(() => {
-            img.src = 'img_sceneries/forest_backgroundFireForest3';
-        },3000);
-    },3000);
+            img.src = 'img_sceneries/forest_backgroundFireForest3.jpg';
+        }, 3000);
+    }, 3000);
 });
-
