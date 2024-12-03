@@ -34,6 +34,7 @@ setTimeout(()=> {
 
                             setTimeout(()=> {
                                 frogImg.src = 'imgs_sub_sceneries/forest_ranaBatt.png';
+                                frogImg.style.height = "10rem"
                             }, 500);
                         }, 500);
                     }, 500);
