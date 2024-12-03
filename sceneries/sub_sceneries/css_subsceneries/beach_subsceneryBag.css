@@ -1,3 +1,7 @@
+.sign{
+    z-index: 80;
+}
+
 .sign1{
     height: 7rem;
     width: 11rem;
