@@ -35,6 +35,7 @@ yes.addEventListener('click', function(){
 const no = document.getElementById('noThrowTrash'); //Variable para en caso de que el usuario pulse no
 const contentImg = document.querySelector('.content_img_trashCity');
 const img = document.getElementById('img_trashCity');
+const options = document.querySelector('.options');
 
 no.addEventListener('click', function(){
     contentImg.style.visibility = "visible";
@@ -42,6 +43,8 @@ no.addEventListener('click', function(){
     
     setTimeout(() => {
         img.src = 'imgs_sceneries/city_trashCity2.jpg';
+        options.innerHTML = "";
+        options.appendChild(yes);
 
         setTimeout(() => {
             img.src = 'imgs_sceneries/city_trashCity3.jpg';
