@@ -11,6 +11,6 @@ setTimeout(()=> {
     textBoy.style.opacity = "0";
 
     setTimeout(()=> {
-        boy.style.animation = "goOut 2s linear forwards;";
+        boy.style.animation = "goOut 2s linear forwards";
     }, 1000);
 }, 2000);
