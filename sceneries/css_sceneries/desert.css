@@ -25,7 +25,12 @@ main > div {
 }
 
 .info1{
-
+    width: 22rem;
+    height: 16rem;
+    top: 30%;
+    left: 4%;
+    visibility: hidden;
+    opacity: 0;
 }
 .info2{
 
