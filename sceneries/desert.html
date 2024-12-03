@@ -71,16 +71,26 @@
         </main>
 
     </div>
-    <script src="scripts_sceneries/desert_scale.js"></script>
+   <!-- <script src="scripts_sceneries/desert_scale.js"></script>-->
     <script>
         document.getElementById("area1").onclick = function() {
             document.getElementById("gif1").style.display = "block"; // Muestra el GIF 1
             document.getElementById("gif2").style.display = "none"; // Oculta el GIF 2
+            document.querySelector(".img img").style.display = "none"; // Oculta el GIF 2
+            setTimeout(() =>{
+                document.getElementById("gif1").style.display = "none"; // Muestra el GIF 1
+                document.querySelector(".img img").style.display = "block"; // Oculta el GIF 2
+            }, 1200);
         };
     
         document.getElementById("area2").onclick = function() {
             document.getElementById("gif2").style.display = "block"; // Muestra el GIF 2
             document.getElementById("gif1").style.display = "none"; // Oculta el GIF 1
+            document.querySelector(".img img").style.display = "none"; // Oculta el GIF 2
+            setTimeout(() =>{
+                document.getElementById("gif2").style.display = "none"; // Muestra el GIF 1
+                document.querySelector(".img img").style.display = "block"; // Oculta el GIF 2
+            }, 1200);
         };
     </script>
 </body>
