@@ -59,13 +59,13 @@
 
 @-webkit-keyframes fly1{
     0%{
-        left: 37%;
-        bottom: 14%;
+        left: 48%;
+        bottom: 18%;
         transform: rotate(0deg);
     }
     99%{
-        left: 23%;
-        bottom: 37%;
+        left: 34%;
+        bottom: 41%;
         transform: rotate(925deg);
     }
     100%{
@@ -75,13 +75,13 @@
 
 @-webkit-keyframes fly2{
     0%{
-        left: 37%;
-        bottom: 14%;
+        left: 42%;
+        bottom: 8%;
         transform: rotate(0deg);
     }
     99%{
-        left: 23%;
-        bottom: 37%;
+        left: 28%;
+        bottom: 31%;
         transform: rotate(925deg);
     }
     100%{
