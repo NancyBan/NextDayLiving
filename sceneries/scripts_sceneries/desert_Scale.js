@@ -14,7 +14,9 @@ area_gota.addEventListener('click', function(){
         setTimeout(()=> {
             content_innundado.style.visibility= "hidden";
             content_innundado.style.opacity = "0";
-            
+
+            info1.style.visibility= "visible";
+            info1.style.opacity="1";
         }, 10400);
     }, 1000);
 });
@@ -27,6 +29,9 @@ area_humo.addEventListener('click', function(){
         setTimeout(()=> {
             content_seco.style.visibility= "hidden";
             content_seco.style.opacity= "0";
+
+            info2.style.visibility= "visible";
+            info2.style.opacity="1";
         }, 10400);
     }, 1000);
 });
