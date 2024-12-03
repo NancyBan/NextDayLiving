@@ -34,7 +34,11 @@ setTimeout(()=> {
 
                             setTimeout(()=> {
                                 frogImg.src = 'imgs_sub_sceneries/forest_ranaBatt.png';
-                                frogImg.style.height = "10rem"
+                                frogImg.style.height = "10rem";
+
+                                setTimeout(()=> {
+                                    frog.display.animation = "attack 1s linear forwards";
+                                }, 500);
                             }, 500);
                         }, 500);
                     }, 500);

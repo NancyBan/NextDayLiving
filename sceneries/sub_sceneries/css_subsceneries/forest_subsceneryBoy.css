@@ -57,8 +57,24 @@
     height: 6rem;
 }
 
-@-webkit-keyframes attac{
-
+/*img2*/
+@-webkit-keyframes attack{
+    0%{
+        bottom: 8%;
+        right: 18%;
+    }
+    33%{
+        left: 42%;
+        bottom: 8%;
+    }
+    66%{
+        left: 37%;
+        bottom: 14%;
+    }
+    100%{
+        left: 48%;
+        bottom: 18%;
+    }
 }
 
 @-webkit-keyframes jump{
