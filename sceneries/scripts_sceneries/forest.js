@@ -2,6 +2,7 @@ const optionOff = document.getElementById('optionYes');
 const optionGo = document.getElementById('optionNo');
 const contentImg = document.querySelector('.content_img_forestFire');
 const img = document.getElementById('img_forestFire');
+const content_gif_bambi = document.querySelector('.content_img_bambi'); 
 
 optionGo.addEventListener('click', function() {
     contentImg.style.visibility = "visible";
@@ -24,8 +25,7 @@ optionGo.addEventListener('click', function() {
     }, 3000);
 });
 
-optionOff.addEventListener('click', function(){
-    const content_gif_bambi = document.querySelector('.content_gif_bambi');    
+optionOff.addEventListener('click', function(){   
     content_gif_bambi.style.visibility = "visible";
     content_gif_bambi.style.opacity = "1";
 });
