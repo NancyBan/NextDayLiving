@@ -2,6 +2,9 @@ const boy = document.querySelector('.img1');
 const textBoy = document.querySelector('.sign1');
 const frog = document.querySelector('.img2');
 const textFrog = document.querySelector('.sign2');
+const frog1 = document.querySelector('.frog1');
+const frog2 = document.querySelector('.frog2');
+const frog3 = document.querySelector('.frog3');
 
 setTimeout(()=> {
     textFrog.style.visibility ="visible";
@@ -20,6 +23,12 @@ setTimeout(()=> {
             setTimeout(()=> {
                 frog.style.transform = "rotateY(180deg)";
                 frog.style.animation = "right 1s linear forwards";
+
+                setTimeout(()=> {
+                    frog1.style.display = "block";
+                    frog2.style.display = "block";
+                    frog3.style.display = "block";
+                }, 1000);
             }, 1000);
         }, 1000);
     }, 1000);
