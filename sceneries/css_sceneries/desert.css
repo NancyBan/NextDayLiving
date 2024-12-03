@@ -1,5 +1,7 @@
-.img{
-
+main > div {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .img1{
@@ -8,12 +10,5 @@
 
 .img1 img{
     height: 47rem;
-}
-
-.img2{
-
-}
-
-.img3{
-
+    position: absolute;
 }
