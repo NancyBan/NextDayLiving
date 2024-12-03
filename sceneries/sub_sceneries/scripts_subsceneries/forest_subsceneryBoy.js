@@ -37,6 +37,7 @@ setTimeout(()=> {
                                 frogImg.style.height = "10rem";
 
                                 setTimeout(()=> {
+                                    frog.style.right = "";
                                     frog.style.animation = "attack 1s linear forwards";
                                 }, 500);
                             }, 500);
