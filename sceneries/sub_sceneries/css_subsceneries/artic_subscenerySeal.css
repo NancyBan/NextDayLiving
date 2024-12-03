@@ -25,13 +25,17 @@
 
 .sign1 {
     height: 4rem;
-    width: 11rem;
+    width: 10rem;
     top: 66%;
     right: 83%;
     visibility: visible;
     opacity: 1;
 }
 
-p {
+.info p {
     text-align: justify;
+}
+
+.sign1 p {
+    text-align: center;
 }
