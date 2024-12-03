@@ -33,7 +33,7 @@ setTimeout(()=> {
                             frog3.style.display = "block";
 
                             setTimeout(()=> {
-                                frogImg.src = 'imgs_sub_sceneries/forest_ranaBatt';
+                                frogImg.src = 'imgs_sub_sceneries/forest_ranaBatt.png';
                             }, 500);
                         }, 500);
                     }, 500);
