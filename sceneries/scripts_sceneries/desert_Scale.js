@@ -17,6 +17,11 @@ area_gota.addEventListener('click', function(){
 
             info1.style.visibility= "visible";
             info1.style.opacity="1";
+
+            if(info2.style.visibility == "visible"){
+                info3.style.visibility= "visible";
+                info3.style.opacity="1";
+            }
         }, 10400);
     }, 1000);
 });
@@ -32,6 +37,11 @@ area_humo.addEventListener('click', function(){
 
             info2.style.visibility= "visible";
             info2.style.opacity="1";
+
+            if(info1.style.visibility == "visible"){
+                info3.style.visibility = "visible";
+                info3.style.opacity = "1";
+            }
         }, 10400);
     }, 1000);
 });
