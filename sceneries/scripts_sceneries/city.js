@@ -33,9 +33,26 @@ yes.addEventListener('click', function(){
 });
 
 const no = document.getElementById('noThrowTrash'); //Variable para en caso de que el usuario pulse no
+const contentImg = document.querySelector('.content_img_trashCity');
 
 no.addEventListener('click', function(){
-    console.log("No le picaste we");
+    contentImg.style.visibility = "visible";
+    contentImg.style.opacity = "1";
+    
+    setTimeout(() => {
+        img.src = 'imgs_sceneries/city_trashCity2.jpg';
 
+        setTimeout(() => {
+            img.src = 'imgs_sceneries/city_trashCity3.jpg';
+            setTimeout(()=> {
+                contentImg.style.visibility = "hidden";
+                contentImg.style.opacity = "0";
+                setTimeout(()=> {
+                    img.src = 'imgs_sceneries/city_trashCity.jpg';    
+                }, 1000);
+                
+            }, 3000);
+        }, 3000);
+    }, 3000);
 });
 

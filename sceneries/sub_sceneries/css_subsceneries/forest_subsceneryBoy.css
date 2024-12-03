@@ -182,5 +182,11 @@
 }
 
 .info{
-    
+    height: 17rem;
+    width: 36rem;
+    top: 7%;
+    right: 62%;
+    font-size: 1.5rem;
+    visibility: hidden;
+    opacity: 0;
 }

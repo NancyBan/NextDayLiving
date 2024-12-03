@@ -6,7 +6,7 @@ const textFrog = document.querySelector('.sign2');
 const frog1 = document.querySelector('.frog1');
 const frog2 = document.querySelector('.frog2');
 const frog3 = document.querySelector('.frog3');
-const 
+const info = document.querySelector('.info');
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -64,7 +64,9 @@ async function animateScene() {
         await sleep(1000);
         frog2.style.animation = "fly2 1s linear forwards";
 
-        
+        await sleep(2000);
+            info.style.visibility = "visible";
+            info.style.opacity = "1";
 
     } catch (error) {
         console.error('Error en la animación:', error);
