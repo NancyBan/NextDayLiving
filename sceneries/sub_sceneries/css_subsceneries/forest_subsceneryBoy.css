@@ -57,6 +57,38 @@
     height: 6rem;
 }
 
+@-webkit-keyframes fly1{
+    0%{
+        left: 37%;
+        bottom: 14%;
+        transform: rotate(0deg);
+    }
+    99%{
+        left: 23%;
+        bottom: 37%;
+        transform: rotate(925deg);
+    }
+    100%{
+        display: none;
+    }
+}
+
+@-webkit-keyframes fly2{
+    0%{
+        left: 37%;
+        bottom: 14%;
+        transform: rotate(0deg);
+    }
+    99%{
+        left: 23%;
+        bottom: 37%;
+        transform: rotate(925deg);
+    }
+    100%{
+        display: none;
+    }
+}
+
 @-webkit-keyframes fly3{
     0%{
         left: 37%;
