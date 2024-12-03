@@ -74,3 +74,14 @@
     visibility: hidden;
     opacity: 0;
 }
+
+@-webkit-keyframes right{
+    0%{
+        bottom: 8%;
+        right: 44%;
+    }
+    100%{
+        bottom: 8%;
+        right: 18%;
+    }
+}
