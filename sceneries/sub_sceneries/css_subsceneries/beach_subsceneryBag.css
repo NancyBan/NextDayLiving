@@ -24,6 +24,18 @@
     animation: rotate 1s ease-in-out forwards;
 }
 
+.info{
+    height: 20rem;
+    width: 60rem;
+    top: 30%;
+    right: 20%;
+    font-size: 1.8rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    z-index: 1000;
+}
+
 @-webkit-keyframes rotate{
     0%{
         transform: rotate(0%);
@@ -33,13 +45,4 @@
         transform: rotate(156deg);
         height: 34rem;
     }
-}
-
-.info{
-    z-index: 10000;
-    height: 20rem;
-    width: 60rem;
-    top: 30%;
-    right: 20%;
-    font-size: 1.8rem;
 }
