@@ -57,12 +57,11 @@ async function animateScene() {
         await sleep(330); // 33% de 3s
         frog3.style.animation = "fly3 1s linear forwards";
         
-        
         await sleep(660); // 66% de 3s
-        frog2.style.animation = "fly2 1s linear forwards";
+        frog1.style.animation = "fly1 1s linear forwards";
         
         await sleep(1000);
-        frog1.style.animation = "fly1 1s linear forwards";
+        frog2.style.animation = "fly2 1s linear forwards";
 
     } catch (error) {
         console.error('Error en la animación:', error);
