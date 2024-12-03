@@ -7,11 +7,13 @@
     height: 13rem;
 }
 
-.sign {
+.info{
     top: 13%;
     right: 58%;
     height: 31%;
     width: 41rem;
+    visibility: hidden;
+    opacity: 0;
 }
 
 ul {
