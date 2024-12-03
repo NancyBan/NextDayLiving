@@ -51,5 +51,10 @@
 
 
 .sign2{
-    
+    top: 45%;
+    right: 46%;
+    width: 12rem;
+    height: 6rem;
+    visibility: hidden;
+    opacity: 0;
 }
