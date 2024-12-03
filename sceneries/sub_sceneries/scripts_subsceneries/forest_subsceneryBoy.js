@@ -12,6 +12,7 @@ setTimeout(()=> {
 
     setTimeout(()=> {
         boy.style.animation = "turn 1s linear forwards";
+        textBoy.style.transform = "rotateY(180deg)";
         setTimeout(()=> {
             boy.style.animation = "goOut 1s linear forwards";
         }, 1000);
