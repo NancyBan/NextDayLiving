@@ -8,8 +8,13 @@
 }
 
 .sign {
-    top: 24%;
-    right: 20%;
-    height: 29%;
+    top: 13%;
+    right: 58%;
+    height: 31%;
     width: 41rem;
+}
+
+ul {
+    display: flex;
+    padding: 0 30px;
 }
