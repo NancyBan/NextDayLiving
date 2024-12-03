@@ -1,3 +1,4 @@
+const boy = document.querySelector('.img1');
 const textBoy = document.querySelector('.sign1');
 const frog = document.querySelector('.img2');
 const textFrog = document.querySelector('.sign2');
@@ -10,6 +11,6 @@ setTimeout(()=> {
     textBoy.style.opacity = "0";
 
     setTimeout(()=> {
-        window.location.href = '';
+        boy.style.animation = "animation: goOut 2s linear forwards;";
     }, 1000);
 }, 2000);
