@@ -16,6 +16,25 @@
     height: 8rem;
 }
 
+
+.sign{
+    top: 45%;
+    right: 27%;
+}
+
+.sign2{
+    top: 45%;
+    right: 46%;
+    width: 12rem;
+    height: 6rem;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.frog1, .frog2, .frog3{
+    display: none;
+}
+
 @-webkit-keyframes jump{
     0% {
         bottom: 32%;
@@ -43,11 +62,6 @@
     }
 }
 
-.sign{
-    top: 45%;
-    right: 27%;
-}
-
 @-webkit-keyframes turn{
     0%{
         transform: rotateY(0deg);
@@ -64,15 +78,6 @@
     100%{
         right: -14%;
     }
-}
-
-.sign2{
-    top: 45%;
-    right: 46%;
-    width: 12rem;
-    height: 6rem;
-    visibility: hidden;
-    opacity: 0;
 }
 
 @-webkit-keyframes right{
