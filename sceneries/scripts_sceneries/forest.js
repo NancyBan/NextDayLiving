@@ -28,4 +28,8 @@ optionGo.addEventListener('click', function() {
 optionOff.addEventListener('click', function(){   
     content_gif_bambi.style.visibility = "visible";
     content_gif_bambi.style.opacity = "1";
+
+    setTimeout(()=> {
+
+    }, );
 });
