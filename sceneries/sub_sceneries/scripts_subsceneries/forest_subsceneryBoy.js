@@ -14,6 +14,8 @@ setTimeout(()=> {
         boy.style.animation = "turn 1s linear forwards";
         boy.style.transform = "rotateY(180deg)";
         setTimeout(()=> {
+            textFrog.style.visibility ="hidden";
+            textFrog.style.opacity ="0";
             boy.style.animation = "goOut 1s linear forwards";
         }, 1000);
     }, 1000);
