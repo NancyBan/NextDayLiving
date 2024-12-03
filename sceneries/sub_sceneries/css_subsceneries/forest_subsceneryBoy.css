@@ -10,6 +10,7 @@
     bottom: 32%;
     right: 9%;
     animation: jump 1s ease-in-out forwards;
+    z-index: 100;
 }
 
 .img2 img{
