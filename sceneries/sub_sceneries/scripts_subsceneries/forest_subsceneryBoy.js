@@ -26,8 +26,12 @@ setTimeout(()=> {
 
                 setTimeout(()=> {
                     frog1.style.display = "block";
-                    frog2.style.display = "block";
-                    frog3.style.display = "block";
+                    setTimeout(()=> {
+                        frog2.style.display = "block";
+                        setTimeout(()=> {
+                            frog3.style.display = "block";
+                        }, 500);
+                    }, 500);
                 }, 1000);
             }, 1000);
         }, 1000);
