@@ -16,6 +16,11 @@ setTimeout(()=> {
         setTimeout(()=> {
             textFrog.style.display = "none";
             boy.style.animation = "goOut 1s linear forwards";
+
+            setTimeout(()=> {
+                frog.style.transform = "rotateY(180deg)";
+                frog.style.right = "18%";
+            }, 1000);
         }, 1000);
     }, 1000);
 }, 2000);

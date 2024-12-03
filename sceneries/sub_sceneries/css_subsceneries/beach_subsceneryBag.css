@@ -34,3 +34,12 @@
         height: 34rem;
     }
 }
+
+.info{
+    z-index: 10000;
+    height: 20rem;
+    width: 60rem;
+    top: 30%;
+    right: 20%;
+    font-size: 1.8rem;
+}
