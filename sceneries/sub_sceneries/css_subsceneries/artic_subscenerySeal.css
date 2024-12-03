@@ -32,6 +32,13 @@
     opacity: 1;
 }
 
+.sign2 {
+    height: 5rem;
+    width: 11rem;
+    top: 28%;
+    right: 42%;
+}
+
 .info p {
     text-align: justify;
 }
