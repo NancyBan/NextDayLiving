@@ -5,8 +5,7 @@ const content_seco = document.querySelector('.content_gif_seco');
 
  area_gota.addEventListener('click', function(){
     content_innundado.style.visibility= "visible";
-    content_inundado.style.opacity="1";
-
+    content_innundado.style.opacity="1";
  });
  
  area_humo.addEventListener('click', function(){
