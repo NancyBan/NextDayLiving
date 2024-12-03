@@ -19,7 +19,7 @@ setTimeout(()=> {
 
             setTimeout(()=> {
                 frog.style.transform = "rotateY(180deg)";
-                boy.style.animation = "";
+                frog.style.animation = "";
                 frog.style.right = "18%";
             }, 1000);
         }, 1000);
