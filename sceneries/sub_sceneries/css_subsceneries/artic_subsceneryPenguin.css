@@ -11,4 +11,7 @@
     width: 35rem;
     top: 10%;
     right: 7%;
+    visibility: hidden;
+    opacity: 0;
 }
+

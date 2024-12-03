@@ -21,6 +21,8 @@
     right: 5%;
     visibility: visible;
     opacity: 1;
+    visibility: hidden;
+    opacity: 0;
 }
 
 .sign1 {
