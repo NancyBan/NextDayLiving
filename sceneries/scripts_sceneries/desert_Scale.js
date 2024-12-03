@@ -4,16 +4,19 @@ const content_innundado = document.querySelector('.content_gif_inundado');
 const content_seco = document.querySelector('.content_gif_seco');
 
  area_gota.addEventListener('click', function(){
-    content_innundado.style.visibility= "visible";
-    content_innundado.style.opacity="1";
+    setTimeout(()=>{
+        content_innundado.style.visibility= "visible";
+        content_innundado.style.opacity="1";
 
-    setTimeout(()=> {
-        content_innundado.style.visibility= "hidden";
-        content_innundado.style.opacity = "0";
-    }, 10300);
+        setTimeout(()=> {
+            content_innundado.style.visibility= "hidden";
+            content_innundado.style.opacity = "0";
+        }, 10300);
+    }, 1000);
  });
  
  area_humo.addEventListener('click', function(){
+   setTimeout(()=>{
     content_seco.style.visibility= "visible";
     content_seco.style.opacity= "1";
 
@@ -21,4 +24,5 @@ const content_seco = document.querySelector('.content_gif_seco');
         content_seco.style.visibility= "hidden";
         content_seco.style.opacity= "0";
     }, 10300);
+   }, 1000);
  });
