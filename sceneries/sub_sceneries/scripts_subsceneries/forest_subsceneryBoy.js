@@ -48,3 +48,10 @@ setTimeout(()=> {
         }, 1000);
     }, 1000);
 }, 2000);
+
+frog.addEventListener('animationend', (event) => {
+    if (event.animationName === 'attack') {
+        const elementWithFly3 = document.querySelector('.elementoConFly3'); // Cambia esto al selector correcto
+        elementWithFly3.style.animation = 'fly3 1s linear forwards';
+    }
+});
