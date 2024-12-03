@@ -21,6 +21,12 @@
     </script>
     <title>Desert</title>
     <link rel="stylesheet" href="css_sceneries/desert.css">
+    <style>
+        #gif1, #gif2 {
+            display: none; /* Ocultar los GIFs inicialmente */
+            position: absolute; /* Posicionar los GIFs */
+        }
+    </style>
 </head>
 <body>
     <div id="header">
@@ -40,21 +46,32 @@
         
                 if (menu && subMenu) {
                     menu.addEventListener('click', function () {
-                    subMenu.classList.toggle("active");
-                  });
+                        subMenu.classList.toggle("active");
+                    });
                 }
             });
         </script>
     </div>
     
     <div id="container">
-        <div id="background"><img src="imgs_sceneries/desert_background.jpg"></div>
+        <div id="background">
+            <img src="imgs_sceneries/desert_background.jpg" alt="Fondo del desierto">
+        </div>
         
         <main>
-            <div class="img img1"><img src="imgs_sceneries/desert_scaleStatic.png"></div>
+            <div style="position: relative;">
+                <img id="miImagen" src="imgs_sceneries/desert_scaleStatic.png" alt="Imagen" style="width: 500px; height: auto;">
+                <div id="area1" style="position: absolute; left: 50px; top: 50px; width: 100px; height: 100px; cursor: pointer;"></div>
+                <div id="area2" style="position: absolute; left: 200px; top: 50px; width: 100px; height: 100px; cursor: pointer;"></div>
+                <img id="gif1" src="imgs_sceneries/desert_scaleWater.gif" alt="GIF 1" />
+                <img id="gif2" src="imgs_sceneries/desert_scaleCO2.gif" alt="GIF 2" />
+            </div>
         </main>
-        <script src="index.js"></script> <!--no hay :D-->
-    </div>
 
+       
+
+        
+    </div>
+    <script src="scripts_sceneries/desert_scale.js"></script>
 </body>
 </html>

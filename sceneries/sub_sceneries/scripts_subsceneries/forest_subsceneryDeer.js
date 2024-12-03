@@ -10,4 +10,8 @@ sign.addEventListener('click', function() {
         window.location.href = 'forest_subsceneryDeerSad.html';
         contentVideo.style.display = "none";
     });
+    setTimeout(() => {
+        info.style.visibility = "visible";
+        info.style.opacity = "1";
+    }, 1000);
 });
