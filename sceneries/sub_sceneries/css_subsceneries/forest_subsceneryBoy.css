@@ -57,13 +57,17 @@
     height: 6rem;
 }
 
+@-webkit-keyframes fly{
+    
+}
+
 @-webkit-keyframes attack{
     0%{
         bottom: 8%;
         right: 18%;
     }
     33%{
-        right: '';
+        right: auto;
         left: 48%;
         bottom: 18%;
     }
