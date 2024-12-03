@@ -8,4 +8,8 @@ setTimeout(()=> {
     frog.style.animation = "jump 1s linear forwards";
     textBoy.style.visibility = "hidden";
     textBoy.style.opacity = "0";
-}, 1000);
+
+    setTimeout(()=> {
+        window.location.href = '';
+    }, 2000);
+}, 2000);
