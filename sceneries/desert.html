@@ -60,7 +60,7 @@
         
         <main>
             <div style="position: relative;">
-                <img id="miImagen" src="imgs_sceneries/desert_scaleStatic.png" alt="Imagen" style="width: 500px; height: auto;">
+                <div class="img img1"><img src="imgs_sceneries/desert_scaleStatic.png"></div>
                 <div id="area1" style="position: absolute; left: 50px; top: 50px; width: 100px; height: 100px; cursor: pointer;"></div>
                 <div id="area2" style="position: absolute; left: 200px; top: 50px; width: 100px; height: 100px; cursor: pointer;"></div>
                 <img id="gif1" src="imgs_sceneries/desert_scaleWater.gif" alt="GIF 1" />
@@ -68,10 +68,18 @@
             </div>
         </main>
 
-       
-
-        
     </div>
     <script src="scripts_sceneries/desert_scale.js"></script>
+    <script>
+        document.getElementById("area1").onclick = function() {
+            document.getElementById("gif1").style.display = "block"; // Muestra el GIF 1
+            document.getElementById("gif2").style.display = "none"; // Oculta el GIF 2
+        };
+    
+        document.getElementById("area2").onclick = function() {
+            document.getElementById("gif2").style.display = "block"; // Muestra el GIF 2
+            document.getElementById("gif1").style.display = "none"; // Oculta el GIF 1
+        };
+    </script>
 </body>
 </html>
