@@ -33,9 +33,18 @@ main > div {
     opacity: 0;
 }
 .info2{
-
+    width: 25rem;
+    height: 19rem;
+    top: 30%;
+    right: 4%;
+    visibility: hidden;
+    opacity: 0;
 }
 .info3{
-
-
+    width: 10rem;
+    height: 5rem;
+    top: 76%;
+    right: 46%;
+    visibility: hidden;
+    opacity: 0;
 }
