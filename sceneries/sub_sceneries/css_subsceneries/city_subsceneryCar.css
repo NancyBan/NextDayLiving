@@ -17,3 +17,7 @@
     left: 63rem;
     top: 14%;
 }
+
+.info p {
+    text-align: justify;
+}

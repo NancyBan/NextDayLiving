@@ -35,6 +35,29 @@
     display: none;
 }
 
+.frog1 img, .frog2 img, .frog3 img{
+    height: 5rem;
+}
+
+.frog1{
+    left: 42%;
+    bottom: 8%;
+}
+
+.frog2{
+    left: 37%;
+    bottom: 14%;
+}
+
+.frog3{
+    left: 48%;
+    bottom: 18%;
+}
+
+.frog2 img{
+    height: 6rem;
+}
+
 @-webkit-keyframes jump{
     0% {
         bottom: 32%;
