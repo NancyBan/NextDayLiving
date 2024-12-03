@@ -23,3 +23,9 @@ optionGo.addEventListener('click', function() {
         }, 3000);
     }, 3000);
 });
+
+optionOff.addEventListener('click', function(){
+    const content_gif_bambi = document.querySelector('.content_gif_bambi');    
+    content_gif_bambi.style.visibility = "visible";
+    content_gif_bambi.style.opacity = "1";
+});
