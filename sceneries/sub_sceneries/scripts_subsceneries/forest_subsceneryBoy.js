@@ -1,6 +1,7 @@
 const boy = document.querySelector('.img1');
 const textBoy = document.querySelector('.sign1');
 const frog = document.querySelector('.img2');
+const frogImg = document.querySelector('.img2 img');
 const textFrog = document.querySelector('.sign2');
 const frog1 = document.querySelector('.frog1');
 const frog2 = document.querySelector('.frog2');
@@ -30,6 +31,10 @@ setTimeout(()=> {
                         frog2.style.display = "block";
                         setTimeout(()=> {
                             frog3.style.display = "block";
+
+                            setTimeout(()=> {
+                                frogImg.src = 'imgs_sub_sceneries/forest_ranaBatt';
+                            }, 500);
                         }, 500);
                     }, 500);
                 }, 1000);
