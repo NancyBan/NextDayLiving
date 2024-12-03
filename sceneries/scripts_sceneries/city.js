@@ -34,6 +34,7 @@ yes.addEventListener('click', function(){
 
 const no = document.getElementById('noThrowTrash'); //Variable para en caso de que el usuario pulse no
 const contentImg = document.querySelector('.content_img_trashCity');
+const img = document.getElementById('img_trashCity');
 
 no.addEventListener('click', function(){
     contentImg.style.visibility = "visible";
