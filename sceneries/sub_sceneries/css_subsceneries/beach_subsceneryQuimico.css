@@ -33,4 +33,7 @@
     top: 8%;
     right: 38%;
     font-size: 1.3rem;
+
+    visibility: hidden;
+    opacity: 0;
 }

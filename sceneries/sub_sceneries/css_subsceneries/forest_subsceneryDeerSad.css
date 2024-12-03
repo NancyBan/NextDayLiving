@@ -24,4 +24,7 @@
     height: 11rem;
     top: 70%;
     left: 5%;
+
+    visibility: hidden;
+    opacity: 0;
 }
