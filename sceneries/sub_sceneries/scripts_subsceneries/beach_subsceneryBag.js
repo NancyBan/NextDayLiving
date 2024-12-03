@@ -1,3 +1,4 @@
+const sign1 = document.querySelector('.sign1');
 const sign2 = document.querySelector('.sign2');
 
 const background = document.querySelector('#background img');
@@ -37,6 +38,8 @@ setTimeout(()=> {
             spawnMedusa();
 
             setTimeout(() => {
+                sign1.style.display = "none";
+                sign2.style.display = "none";
                 info.style.visibility = "visible";
                 info.style.opacity = "1";
             }, 11000);
