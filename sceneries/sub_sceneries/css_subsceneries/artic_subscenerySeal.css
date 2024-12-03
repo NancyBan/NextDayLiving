@@ -15,10 +15,23 @@
 }
 
 .info {
-    height: 16rem;
-    width: 37rem;
-    top: 64%;
+    height: 21rem;
+    width: 43rem;
+    top: 61%;
     right: 5%;
     visibility: visible;
     opacity: 1;
+}
+
+.sign1 {
+    height: 4rem;
+    width: 11rem;
+    top: 66%;
+    right: 83%;
+    visibility: visible;
+    opacity: 1;
+}
+
+p {
+    text-align: justify;
 }
