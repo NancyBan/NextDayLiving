@@ -6,6 +6,7 @@ const textFrog = document.querySelector('.sign2');
 const frog1 = document.querySelector('.frog1');
 const frog2 = document.querySelector('.frog2');
 const frog3 = document.querySelector('.frog3');
+const 
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -72,6 +73,3 @@ async function animateScene() {
 
 animateScene();
 
-.info{
-    
-}
