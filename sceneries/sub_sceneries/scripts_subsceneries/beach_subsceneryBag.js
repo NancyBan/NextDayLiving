@@ -3,6 +3,8 @@ const sign2 = document.querySelector('.sign2');
 const background = document.querySelector('#background img');
 const turtle = document.querySelector('.img1');
 
+const info = document.querySelector('.info');
+
 setTimeout(()=> {
     sign2.style.visibility = "visible";
     sign2.style.opacity = "1";
@@ -34,6 +36,10 @@ setTimeout(()=> {
             }
             spawnMedusa();
 
+            setTimeout(() => {
+                info.style.visibility = "visible";
+                info.style.opacity = "1";
+            }, 1000);
         }, 1000);
 
     }, 2000);
