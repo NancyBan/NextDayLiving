@@ -3,6 +3,7 @@ const optionGo = document.getElementById('optionNo');
 const contentImg = document.querySelector('.content_img_forestFire');
 const img = document.getElementById('img_forestFire');
 const content_gif_bambi = document.querySelector('.content_img_bambi'); 
+const videoBambi = document.getElementById('img_bambi');
 
 optionGo.addEventListener('click', function() {
     contentImg.style.visibility = "visible";
@@ -29,7 +30,7 @@ optionOff.addEventListener('click', function(){
     content_gif_bambi.style.visibility = "visible";
     content_gif_bambi.style.opacity = "1";
 
-    setTimeout(()=> {
-
-    }, );
+    videoBambi.addEventListener('ended', function(){
+        content_gif_bambi.style.display = "none";
+    });
 });
