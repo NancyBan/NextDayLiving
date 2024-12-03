@@ -47,8 +47,4 @@ setTimeout(()=> {
             }, 1000);
         }, 1000);
     }, 1000);
-    setTimeout(() => {
-        info.style.visibility = "visible";
-        info.style.opacity = "1";
-    }, 1000);
 }, 2000);
